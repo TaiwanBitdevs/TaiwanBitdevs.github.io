@@ -12,7 +12,7 @@ Our fourth Socratic Seminar event will be held at a new location:
 IMBIBE Taipei
 誠安里 Section 3, Civic Blvd, 304號 · Da’an District
 
-Learn about bitcoin development. Share, debate, and discuss trade offs in progress. Skim the [discussion topics](https://github.com/TaiwanBitdevs/TaiwanBitdevs.github.io/pulls/9) on GitHub. We discuss a variety of developments, from industry updates and press releases, pull requests in popular git repositories (e.g. Bitcoin Core, lnd, c-lightning, rust-bitcoin, Joinmarket, WasabiWallet), research papers, technical blog posts, IRC logs, network monitors and more. Please add to the discussion topics on GitHub. We'd love to hear from you. After the event the we socialize over food and drinks. New location at the excellent Imbibe Taipei, 5 minutes from Zhongxiao Fuxing Station. Taiwanese food, homemade soft drinks, and cocktails available.
+Learn about bitcoin development. Share, debate, and discuss trade offs in progress. Skim the [discussion topics](https://github.com/TaiwanBitdevs/TaiwanBitdevs.github.io/pull/9) on GitHub. We discuss a variety of developments, from industry updates and press releases, pull requests in popular git repositories (e.g. Bitcoin Core, lnd, c-lightning, rust-bitcoin, Joinmarket, WasabiWallet), research papers, technical blog posts, IRC logs, network monitors and more. Please add to the discussion topics on GitHub. We'd love to hear from you. After the event the we socialize over food and drinks. New location at the excellent Imbibe Taipei, 5 minutes from Zhongxiao Fuxing Station. Taiwanese food, homemade soft drinks, and cocktails available.
 
 This event is free but everyone must order at least one drink.
 
