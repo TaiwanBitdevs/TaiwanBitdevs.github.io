@@ -29,7 +29,7 @@ Allegedly stole $3m in girls cryptocurrency and put it in Taiwanese made CoolBit
 
 [新聞] 華裔男在美搶9千萬躲台2個月全靠「冷錢包」
 
-source: [https://focustaiwan.tw/society/202206060014](English), [https://moptt.tw/p/DigiCurrency.M.1654492918.A.A8D](中文)
+source: [English](https://focustaiwan.tw/society/202206060014), [中文](https://moptt.tw/p/DigiCurrency.M.1654492918.A.A8D)
 
 ---
 
@@ -38,8 +38,8 @@ source: [https://focustaiwan.tw/society/202206060014](English), [https://moptt.t
 LDK is a growing lightning implementation written in Rust.  It's used in server side software even though that was not its goal.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A history of LDK:<br><br>1. rust-lightning is created with the goal of being embedded in existing Bitcoin wallets, like Electrum<br>2. Electrum makes its own LN Implementation<br>3. rust-lightning changes its name to LDK and pivots to being a kit for implementing LN in Bitcoin mobile wallets</p>&mdash; fiatjaf (@fiatjaf) <a href="https://twitter.com/fiatjaf/status/1534584538994819072?ref_src=twsrc%5Etfw">June 8, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
----
 
+---
 
 ## Celsius Network "Pauses" Customer Withdrawals
 
@@ -54,7 +54,7 @@ LDK is a growing lightning implementation written in Rust.  It's used in server 
 
 ## BIP 47 Payment Code Upgrades (v5?)
 
-[https://gist.github.com/RubenSomsen/21c477c90c942acf45f8e8f5c1ad4fae?permalink_comment_id=4197284#gistcomment-4197284](BIP47 @PizzaDayPrague discussion)
+[BIP47 @PizzaDayPrague discussion](https://gist.github.com/RubenSomsen/21c477c90c942acf45f8e8f5c1ad4fae?permalink_comment_id=4197284#gistcomment-4197284)
 
 - reducing space requirements
 - outsourcing notification tx
@@ -99,7 +99,7 @@ Let's put a Team Taiwan together. Good opportunity for us to set up a space
 
 ## El Salvador Introduced 44 Countries to Bitcoin
 
-[https://bitcoinmagazine.com/culture/el-salvador-brought-44-countries-to-bitcoin](Link to Bitcoin Magazine coverage)
+[Bitcoin Magazine coverage](https://bitcoinmagazine.com/culture/el-salvador-brought-44-countries-to-bitcoin)
 
 > - El Salvador hosted central bankers and financial authorities from 44 countries for a financial inclusion event this week.
 > - All participating members were able to download their own Bitcoin wallets and make purchases with BTC.
@@ -111,7 +111,7 @@ Let's put a Team Taiwan together. Good opportunity for us to set up a space
 
 > The main themes of the conference were human rights and the struggle against despotism in all its forms. This year, however, the activists were presented with a powerful aid: Bitcoin and its permissionless payments, its individual empowerment, its ability to help raise funds for any cause, anywhere in the world.
 
-[https://bitcoinmagazine.com/culture/bitcoin-purpose-at-oslo-freedom-forum](covered by Bitcoin Magazine)
+[Bitcoin Magazine coverage](https://bitcoinmagazine.com/culture/bitcoin-purpose-at-oslo-freedom-forum)
 
 ---
 
