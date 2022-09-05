@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "Socratic Seminar 6: Bitcoin and Mooncakes "
-meetup: https://www.meetup.com/taiwan-bitdevs/events/287163977/
+meetup: https://www.meetup.com/taiwan-bitdevs/events/288276602/
 ---
 
 ## Announcements
