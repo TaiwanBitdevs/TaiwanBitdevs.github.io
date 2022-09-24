@@ -24,7 +24,7 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 
 Evan has been working on the coin selection module of `bdk_core`. What are some considerations and requirements when building a coin selection library?
 
-[blog post] (https://github.com/LLFourn/bdk_core_staging/pull/23)
+[github pr](https://github.com/LLFourn/bdk_core_staging/pull/23)
 
 ### Fedimint
 
@@ -32,18 +32,18 @@ Fedimint, a federated chaumian ecash system, claims to be the "third pillar" of 
 
 Currently, it is harder to custody ecash than on-chain Bitcoin. Each ecash-token needs to be backed up individually, otherwise the user will lose funds permanently. How can deterministic client nonce generation solve this?
 
-[blog post] (https://bitcoinmagazine.com/culture/will-fedimints-bring-bitcoin-to-the-world)
-[blog post] (https://github.com/fedimint/fedimint/issues/502)
+[blog post](https://bitcoinmagazine.com/culture/will-fedimints-bring-bitcoin-to-the-world)
+[github issue](https://github.com/fedimint/fedimint/issues/502)
 
 ### DriveChains with `SIGHASH_ANYPREVOUT`
 
 Jeremy Rubin proposes a way in which drivechains could be implemented with `SIGHASH_ANYPREVOUT` (APO). APO was proposed in BIP-118, while the original drivechain soft-fork proposal is in BIP-300. What are the benefits and tradeoffs between these two drivechain proposals?
 
-[blog post] (https://bitcoinops.org/en/newsletters/2022/09/21/)
-[blog post] (https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-September/020919.html)
+[optech newsletter](https://bitcoinops.org/en/newsletters/2022/09/21/)
+[mailing list](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-September/020919.html)
 
 ### Improve Payment Reliability in Lightning with "Valves"
 
 Valves are an important tool for flow control in fluid and gas networks. Rene Pickhardt (BitMEX Grantee) investigates how valves on the Lightning Network can improve flow control and reduce payment failure rates.
 
-[blog post] (https://blog.bitmex.com/the-power-of-htlc_maximum_msat-as-a-control-valve-for-better-flow-control-improved-reliability-and-lower-expected-payment-failure-rates-on-the-lightning-network/)
+[blog post](https://blog.bitmex.com/the-power-of-htlc_maximum_msat-as-a-control-valve-for-better-flow-control-improved-reliability-and-lower-expected-payment-failure-rates-on-the-lightning-network/)
