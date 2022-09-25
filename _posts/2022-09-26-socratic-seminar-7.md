@@ -49,3 +49,9 @@ Jeremy Rubin proposes a way in which drivechains could be implemented with `SIGH
 Valves are an important tool for flow control in fluid and gas networks. Rene Pickhardt (BitMEX Grantee) investigates how valves on the Lightning Network can improve flow control and reduce payment failure rates.
 
 [blog post](https://blog.bitmex.com/the-power-of-htlc_maximum_msat-as-a-control-valve-for-better-flow-control-improved-reliability-and-lower-expected-payment-failure-rates-on-the-lightning-network/)
+
+### Bitcoin Core 24.0 Release Candidate 1
+
+Notable changes include P2P/network improvements to address a potential denial-of-service attack, wallet support for `wsh()` descriptors, an experimental RPC call to migrate legacy wallets to descriptor wallets, and various other RPC/HTTP-API/GUI changes.
+
+[release notes draft](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/24.0-Release-Notes-draft)
