@@ -77,6 +77,13 @@ March 24th Greenpeace USA tries to start a marketing campaign to again try to di
 
 [tweet](https://twitter.com/greenpeaceusa/status/1638952445542801425?s=20)
 
+### Invalid Block (too many sigops)
+F2Pool mined an invalid block on April 1st (block 783426). More than 80,000 signature operations so not accepted by the network, block replaced by Foundry)
+
+[tweet](https://twitter.com/BitMEXResearch/status/1642151592609607685?s=20)
+
+[bitcointalk post](https://bitcointalk.org/index.php?topic=5447129.0)
+
 ### LND v.0.16.0 released
 LND had a funky behavior where nodes miss channel updates (occurs on nodes with lots of channels). This might explain it
 
