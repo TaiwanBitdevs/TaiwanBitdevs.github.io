@@ -24,7 +24,9 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 ### ZeroSync and Blockstream
 
 ZeroSync leverages zero knowledge proofs to allow bitcoin clients to validate the chainstate without downloading entire blocks
+Sync Bitcoin Core from Space!
 
+[blockstream satellite](https://twitter.com/Blockstream/status/1641897424305246224?s=20)
 [Article in Chinese](https://news.cnyes.com/news/id/5134900)
 
 ### Sparrow Wallet adds Border Wallets to help with seed phrasees
