@@ -1,7 +1,7 @@
 ---
 layout: post
 type: socratic
-title: "Socratic Seminar 9: 好 "九" 不見"
+title: "Socratic Seminar 9: 好 '九' 不見"
 meetup: https://www.meetup.com/taiwan-bitdevs/events/292571920/
 ---
 
