@@ -16,6 +16,8 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 
 我們每月舉辦的蘇格拉底式的研討會活動旨在促進辯論、信息共享和開放討論。在活動前幾週,聚會成員會從各種來源去整理討論主題：流行git倉儲（例如 Bitcoin Core、lnd、c-lightning、rust-bitcoin, Joinmarket、WasabiWallet）中的pull requests、研究論文、技術博客帖文、IRC 日誌、網絡監測等。經過一段時間的討論，一些活動會有來自開源項目、公司、研究和其他相關內容的介紹。隨後是反饋和問答部分。活動結束後，我們會在活動場地進行社交。
 
+---
+---
 
 ## Discussion Topics
 
@@ -42,7 +44,7 @@ Cute april fools joke, apparently you can emulate a Jade on x86 for better perfo
 ### Operation Chokepoint 2.0(?)
 Silvergate -> SVB bailout, Signature shutdown.  Lots of chatter about US regulators cracking down on crypto perhaps another round of bank closures like what happened in 2014 which debanked many bitcoin services.
 
-[tweet] (https://twitter.com/jimmysong/status/1641083651873206272?s=20)
+[tweet](https://twitter.com/jimmysong/status/1641083651873206272?s=20)
 
 
 ### Payjoin rust implementatioon
@@ -54,25 +56,25 @@ Taiwan Bitdevs' Dan Gould introduces his payjoin toolkit end of last month. Payj
 ### Taproot buried in Bitcoin Core
 Welcome Andrew Chow :)
 
-[stack exchange] (https://bitcoin.stackexchange.com/questions/117569/why-isnt-the-taproot-deployment-buried-in-bitcoin-core)
+[stack exchange](https://bitcoin.stackexchange.com/questions/117569/why-isnt-the-taproot-deployment-buried-in-bitcoin-core)
 
 ### Paxful shuts down
 Paxful is a P2P Bitcoin marketplace started in 2015. According to founder Ray Youseff it was shut down due to internal legal disputes. P2P marketplaces remain popular across many exchanges and services
-[article] (https://decrypt.co/125411/paxful-bitcoin-marketplace-closure-cofounder-lawsuit)
+[article](https://decrypt.co/125411/paxful-bitcoin-marketplace-closure-cofounder-lawsuit)
 
 ### Nostr, zaps and stuff
 
 Nostr stands for "notes and other stuff transmitted over relays" it is a protocol designed around censorship resistance which can be used for social media. Nostr is a lot of fun and a great way to use Lightning Network (NIP-57 / zaps / LNURL)
 
-[github link] (https://github.com/nostr-protocol/nostr)
+[github link](https://github.com/nostr-protocol/nostr)
 
 ### Skull of Satoshi by Greenpeace USA backfires(?)
 
 March 24th Greenpeace USA tries to start a marketing campaign to again try to disparage Bitcoin mining. Fun reactions, maybe Skull of Satoshi should come to Taiwan?
 
-[tweet] (https://twitter.com/greenpeaceusa/status/1638952445542801425?s=20)
+[tweet](https://twitter.com/greenpeaceusa/status/1638952445542801425?s=20)
 
 ### LND v.0.16.0 released
 LND had a funky behavior where nodes miss channel updates (occurs on nodes with lots of channels). This might explain it
 
-[pull request] (https://github.com/lightningnetwork/lnd/pull/7239)
+[pull request](https://github.com/lightningnetwork/lnd/pull/7239)
