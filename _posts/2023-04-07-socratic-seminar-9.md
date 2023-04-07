@@ -91,3 +91,8 @@ F2Pool mined an invalid block on April 1st (block 783426). More than 80,000 sign
 LND had a funky behavior where nodes miss channel updates (occurs on nodes with lots of channels). This might explain it
 
 [pull request](https://github.com/lightningnetwork/lnd/pull/7239)
+
+### BDK 1.0.0-alpha
+BDK test release, improvements in asynchronous operations
+[release notes](https://github.com/bitcoindevkit/bdk/releases/tag/v1.0.0-alpha.0)
+
