@@ -44,32 +44,35 @@ Cute april fools joke, apparently you can emulate a Jade on x86 for better perfo
 
 [website to start mining ](https://jademiner.blockstream.com/)
 
-### Operation Chokepoint 2.0(?)
-Silvergate -> SVB bailout, Signature shutdown.  Lots of chatter about US regulators cracking down on crypto perhaps another round of bank closures like what happened in 2014 which debanked many bitcoin services.
-
-[tweet](https://twitter.com/jimmysong/status/1641083651873206272?s=20)
-
 
 ### Payjoin rust implementatioon
 
 Taiwan Bitdevs' Dan Gould introduces his payjoin toolkit end of last month. Payjoin is one of the ways to use Bitcoin in a privacy-preserving manner. 
 
 [tweet](https://twitter.com/bitgould/status/1640746521829208066?s=20)
+[wasabi inputs flagged by custodial services](https://www.nobsbitcoin.com/el-salvadors-chivo-wallet-is-reportedly-flagging-and-freezing-txs-from-wasabi/)
 
 ### Taproot buried in Bitcoin Core
 Welcome Andrew Chow :)
 
 [stack exchange](https://bitcoin.stackexchange.com/questions/117569/why-isnt-the-taproot-deployment-buried-in-bitcoin-core)
 
+### Operation Chokepoint 2.0(?)
+Silvergate -> SVB bailout, Signature shutdown.  Lots of chatter about US regulators cracking down on crypto perhaps another round of bank closures like what happened in 2014 which debanked many bitcoin services.
+
+[tweet](https://twitter.com/jimmysong/status/1641083651873206272?s=20)
+
 ### Paxful shuts down
 Paxful is a P2P Bitcoin marketplace started in 2015. According to founder Ray Youseff it was shut down due to internal legal disputes. P2P marketplaces remain popular across many exchanges and services
 [article](https://decrypt.co/125411/paxful-bitcoin-marketplace-closure-cofounder-lawsuit)
+
 
 ### Nostr, zaps and stuff
 
 Nostr stands for "notes and other stuff transmitted over relays" it is a protocol designed around censorship resistance which can be used for social media. Nostr is a lot of fun and a great way to use Lightning Network (NIP-57 / zaps / LNURL)
 
 [github link](https://github.com/nostr-protocol/nostr)
+
 
 ### Skull of Satoshi by Greenpeace USA backfires(?)
 
