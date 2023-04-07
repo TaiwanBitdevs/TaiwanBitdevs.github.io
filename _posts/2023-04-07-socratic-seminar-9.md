@@ -47,9 +47,12 @@ Cute april fools joke, apparently you can emulate a Jade on x86 for better perfo
 
 ### Payjoin rust implementatioon
 
-Taiwan Bitdevs' Dan Gould introduces his payjoin toolkit end of last month. Payjoin is one of the ways to use Bitcoin in a privacy-preserving manner. 
+Taiwan Bitdevs' Dan Gould introduces his payjoin toolkit end of last month. Payjoin is one of the ways to use Bitcoin in a privacy-preserving manner.
+
+Taiwan BitDevs have some questions about
 
 [tweet](https://twitter.com/bitgould/status/1640746521829208066?s=20)
+
 [wasabi inputs flagged by custodial services](https://www.nobsbitcoin.com/el-salvadors-chivo-wallet-is-reportedly-flagging-and-freezing-txs-from-wasabi/)
 
 ### Taproot buried in Bitcoin Core
