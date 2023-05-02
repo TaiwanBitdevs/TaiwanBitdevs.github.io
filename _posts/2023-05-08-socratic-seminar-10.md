@@ -37,6 +37,7 @@ Noones appears to be the successor to paxful p2p marketplace -- based on civkit(
 Reminder that Bitcoin was born from the financial crisis, this is following the Silicon Valley Bank (16th largest US bank) collapse. First Republic Bank held $200b of asseets and was 13th largest US Bank
 
 [tweet](https://twitter.com/cryptograffiti/status/1653159862594076672?s=20)
+[more banks will fail](https://www.discreetlog.com/banking-crisis/)
 
 ### BlueWallet Custodial Lightning Wallet closure postponed another month, May 31st
 
