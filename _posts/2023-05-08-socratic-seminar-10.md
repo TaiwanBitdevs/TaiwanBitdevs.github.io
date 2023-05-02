@@ -38,6 +38,8 @@ Reminder that Bitcoin was born from the financial crisis, this is following the 
 
 [tweet](https://twitter.com/cryptograffiti/status/1653159862594076672?s=20)
 [more banks will fail](https://www.discreetlog.com/banking-crisis/)
+[other small bank failure](https://twitter.com/KobeissiLetter/status/1653406861859643400?s=20)
+
 
 ### BlueWallet Custodial Lightning Wallet closure postponed another month, May 31st
 
