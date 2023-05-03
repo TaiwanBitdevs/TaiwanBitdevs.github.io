@@ -37,7 +37,9 @@ Noones appears to be the successor to paxful p2p marketplace -- based on civkit(
 Reminder that Bitcoin was born from the financial crisis, this is following the Silicon Valley Bank (16th largest US bank) collapse. First Republic Bank held $200b of asseets and was 13th largest US Bank
 
 [tweet](https://twitter.com/cryptograffiti/status/1653159862594076672?s=20)
+
 [more banks will fail](https://www.discreetlog.com/banking-crisis/)
+
 [other small bank failure](https://twitter.com/KobeissiLetter/status/1653406861859643400?s=20)
 
 
@@ -89,6 +91,10 @@ Nostr stands for "notes and other stuff transmitted over relays" it is a protoco
 
 ### Ordinals Broken(?) Bug or bad design
 
-Discussion in Taiwan BitDevs LINE group about ordinals theory.  This github discussion can help explain flaws in ordinal theory
+(from Socratic #5)
+What is ordinal theory?
+Ordinals are numbers, like this: 804766073970493. Every satoshi, which is ¹⁄₁₀₀₀₀₀₀₀₀ of a bitcoin, has an ordinal, and every ordinal has a satoshi. When a satoshi changes hands, so does its ordinal. There are a lot of satoshis, and so there are a lot of ordinals. Two quadrillion ninety-nine trillion nine hundred ninety-nine billion nine hundred ninety-seven million six hundred ninety thousand, to be precise.
+
+Discussion this month in Taiwan BitDevs LINE group about ordinals theory.  This github discussion can help explain flaws in ordinal theory and the nature of ownership (or lack of) for arbitrary data
 
 [github discussion](https://github.com/casey/ord/discussions/2015)
