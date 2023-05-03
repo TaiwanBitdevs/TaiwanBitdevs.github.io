@@ -53,6 +53,12 @@ Reminder for any BlueWallet users to move their funds off their custodial servic
 
 [link](https://www.nobsbitcoin.com/shiro-wallet-umbrel-release/)
 
+### Bitcoin Network Reaches New Transaction All-Time High As Fees Surge Due To BRC-20 Tokens
+
+BRC-20 token is an experimental fungible token standard, created using Ordinals and inscriptions of JSON data to deploy token contracts, mint them, as well as transfer tokens
+
+[link](https://thebitcoinmanual.com/articles/brc-20-tokens)
+
 ### Floresta, a utreexo-based Electrum server
 
 Electrum is the backend for many Bitcoin wallets, electrum requires a fully indexed bitcoin core node. utreexo is a way to lessen the burden to run a Bitcoin node
