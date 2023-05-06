@@ -7,3 +7,4 @@ menu:
   - {name: 'Meetup', url: 'https://www.meetup.com/taiwan-bitdevs/', external: true}
   - {name: 'Twitter', url: 'https://twitter.com/TaiwanBitdevs', external: true}
   - {name: '⚡️@ln.bitdevs.tw', url: 'https://ln.bitdevs.tw/', external: true}
+  - {name: 'nostr', url: 'nostr:npub1yvt22y0mkehu9n2fr50wlxg3rg0zjfrcezpeat352shjkjd9l8jqgxz9q9', external: true}
