@@ -61,7 +61,7 @@ Ledger Recover is a custody service offered to Ledger users. Users were outraged
 ### BTCPrague Are Ordinals Retarded?
 
 Giacomo Zucco gives a 30 minute presentation on the history of the concept of colored coins and data encoding on the blockchain.  Using the definition of "delayed development" instead of the colloquial insult. It is important to tell the truth about what happened in Bitcoin so that others can learn from mistakes of the past.
-[BTCPrague Presentation]([https://www.nobsbitcoin.com/shiro-wallet-umbrel-release/](https://www.youtube.com/watch?v=596InlNtfD0))
+[BTCPrague Presentation](https://www.youtube.com/watch?v=596InlNtfD0)
 
 ### Blockstream Greenlight announced
 
