@@ -40,6 +40,14 @@ SEC issuing charges on crypto exchanges for listing unregistered securities, co-
 [SEC press release Binance](https://www.sec.gov/news/press-release/2023-101)
 [SEC press release Coinbase](https://www.sec.gov/news/press-release/2023-102)
 
+### Binance adds lightning network support
+
+Bitcoiners have noticed a node on the Lightning Network called "Binance" with large 5 BTC channels going to lightning-enabled exchanges Kraken and OKex/OKcoin. Binance clarifies that is indeed them.
+
+Their node is not open for public channels
+
+[Binance Twitter post](https://twitter.com/binance/status/1671042638592589826)
+
 ### BlackRock registers for a Spot Bitcoin "ETF"
 
 Asset management giant BlackRock took the first steps Thursday to launch a spot bitcoin exchange-traded fund, which has long been a point of contention between crypto advocates and federal regulators.
