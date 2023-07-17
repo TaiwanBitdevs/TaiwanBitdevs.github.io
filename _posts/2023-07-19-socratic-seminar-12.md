@@ -24,6 +24,7 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 ### Phoenix Wallet Splicing
 
 Splicing changes the game. Phoenix now manages a single dynamic channel, no more 1% fee on inbound liquidity, better predictability and control, trustless swaps. The new fee schedule is detailed here.
+
 [annoucement]([https://acinq.co/blog/phoenix-splicing-update])
 
 ### Binance adds Lightning (finally!)
@@ -31,11 +32,13 @@ Splicing changes the game. Phoenix now manages a single dynamic channel, no more
 Binance adds Lightning network support after 5 years! Better than being last!
 
 [Binance Announcement](https://www.binance.com/en/support/announcement/binance-completes-integration-of-bitcoin-btc-on-lightning-network-opens-deposits-and-withdrawals-eefbfae2c0ae472d9e1e36f1a30bf340?ref=AZTKZ9XS)
-[articke](https://www.nobsbitcoin.com/binance-completed-integration-of-the-lightning-network/)
+
+[article](https://www.nobsbitcoin.com/binance-completed-integration-of-the-lightning-network/)
 
 ### Zapple Pay, get around the Damus Zap block from iOS
 
 Apple forced Damus remove the "Zap" feature which enabled Lightning-tipping for posts.  Here is a work-around by replacing the "shaka" with a Zap.  This is possible because nostr is open
+
 [Zapple Pay Guide](https://habla.news/tony/zapplepay)
 
 ### Zeus Wallet announced adding a node-less option
@@ -60,13 +63,17 @@ The firm filed an application with the U.S. Securities and Exchange Commission t
 As exciting as it is to have BlackRock enter the space so thaat Grayscale is no longer the only game in town, it is important to remember that Larry Fink once called Bitcoin an "index of money laundering", and this product does not have any form of gurantee for actual Bitcoin redemption/settlement
 
 [updated news article](https://www.nobsbitcoin.com/spot-etf-coinbase-surveillance-agreement/)
+
 [news article](https://www.cnbc.com/2023/06/15/blackrock-files-for-spot-bitcoin-etf-with-coinbase-as-a-crypto-custodian.html)
+
 [criticism: Allan Farrington - Just trust me, bro](https://allenfarrington.medium.com/trust-me-bro-fb5a25964634)
+
 [Fidelity also joins in the fun?](https://twitter.com/BitcoinMagazine/status/1670762619677085697)
 
 ### Civkit and BOLT12
 
 Roadmap uploaded for Civkit, a permission-less marketplace built around nostr and lightning.  Looks like BOLT12 is something they are interested in
+
 [github repo](https://github.com/civkit/documentation/blob/main/roadmap.md)
 
 ### LN Markets Increased Trading Limits, Hit A Record $50M Trading Volume In June
@@ -77,7 +84,8 @@ LNMarkets is a derivative trading platform that does deposits and withdrawals us
 
 ### IMF Paper on Taxing Bitcoin Sees 'Quasi-Anonymity' as Greatest Challenge
 
-"Policymakers are struggling to accommodate cryptocurrencies within tax systems not designed to handle them; this paper reviews the issues that arise. The risks, for now, appear more latent than real. But this can change."[BTCPrague Presentation](https://www.youtube.com/watch?v=596InlNtfD0)
+"Policymakers are struggling to accommodate cryptocurrencies within tax systems not designed to handle them; this paper reviews the issues that arise. The risks, for now, appear more latent than real. But this can change."
+
 [link](https://www.nobsbitcoin.com/imf-paper-on-taxing-cryptocurrencies/)
 
 ### Blockstream Greenlight announced
@@ -96,6 +104,7 @@ Electrum is the backend for many Bitcoin wallets, electrum requires a fully inde
 
 A very nice explanation on the HTLCs that traverse the lightning network
 This post will walk through the different operations of a Lightning channel by following a long-running example with plenty of explanatory diagrams. First, we explore how Hash Time Locked Contracts (HTLCs) are added to a channel and how channel peers commit to a new state including these HTLCs. Next, we discuss how a channel’s normal flow is re-established after a disconnection. And finally, we finish with how a cooperative channel closure happens. These topics are all covered in Bolt 2 for those interested in learning more. Note that some of these operations will change with Taproot channels, which will be detailed in a future post.
+
 [link](https://lightning.engineering/posts/2023-06-28-channel-normal-op/?ref=nobsbitcoin.com)
 
 ### Blockstream Simplicity
@@ -103,6 +112,7 @@ This post will walk through the different operations of a Lightning channel by f
 Simplicity is a smart contracting language, similar in spirit to Bitcoin Script or EVM. Like Hacspec (or TLA+, or Alloy), Simplicity is also a specification language, meaning its semantics have a precise mathematical model that allows formally proving statements about programs. If the contract is written in Simplicity, you can prove correctness properties directly. For instance, you can prove that the coins cannot move without signature X, or that the program cannot exceed Y memory threshold.
 
 [link](https://blog.blockstream.com/building-blocks-of-simplicity-values-and-types)
+
 [whitepaper](https://blockstream.com/simplicity.pdf?ref=blog.blockstream.com)
 
 ### Nostr, zaps and stuff (always)
