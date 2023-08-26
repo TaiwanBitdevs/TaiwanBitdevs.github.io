@@ -50,6 +50,14 @@ Bitaxe is a fully open source hardware Bitcoin ASIC miner. Ultra is the 3rd majo
 
 [github link]([https://github.com/skot/bitaxe/tree/ultra?ref=nobsbitcoin.com])
 
+### LNURLp - proposal to remove metadata decription hash from validation on invoices
+
+LNURL is a set of specifications which allow lightning apps to communicate with the nodes on the lightning network through webservers. For example, LNURLp allows for static invoices by having lightning wallets request invoices from a node through a webserver.  A popular implementation of LNURL is lightning address, which is the standard of using e-mail like names for lightning wallets.
+
+This proposal attempts to simplify the current spec by removing one of the validation checks, the goal appears to be to increase interoperability of lightning implementation.  At current Lightning wallets that implement LUD-06(LNURL Pay) are expected to validate fields in "metadata" provided by the LNURL provider with the description hash in a generated invoice.  This requirement made it so CLN nodes had difficulty implementing LNURLp because it doesn't include a description hash in the invoices it generates.
+
+[tweet]([https://twitter.com/callebtc/status/1695346828584047085?s=20])
+
 
 ### SBW Wallet to shutdown Lightning functionality, will retain on-chain wallet
 
