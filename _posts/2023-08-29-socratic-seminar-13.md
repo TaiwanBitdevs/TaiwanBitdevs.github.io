@@ -77,16 +77,34 @@ BIP300/BIP301 is proposed change to allow nodes to store additional messages on 
 Disputes mostly surround its effect on mining incentivves and lack of activation method
 
 [paul sztorc tweet]([https://twitter.com/Truthcoin/status/1695804825307410790?s=20])
+
 [brian trollz tweet]([https://twitter.com/brian_trollz/status/1694389929822814355?s=20])
+
 [adam back tweet]([https://twitter.com/adam3us/status/1696185360571826247?s=20])
 
+
 [tweet about incentives]([https://twitter.com/MrHodl/status/1696138004408963203?s=20])
+
 [messing with incentives]([https://twitter.com/bergealex4/status/1695215070333018497?s=20])
 
 ### CTV Drama -- some articles and discussions to dive into
 
 CTV refers to BIP119. CheckTemplateVerify is an OP code to interchangeably use UTXOs under certain conditions.  CheckTemplateVerify can enable things like channel splicing/channel factories
 CTV has been criticized for its activation method, wanting to go the route of miner activation (like Taproot)
+
+
+### Chainanalysis criticisms
+
+Roman Sterlingov is currently being prosecuted for operating bitcoin centralized coinmixer Bitcoin Fog on evidence collected by US investigators using data from chain/data analysis company ChainAnalysis
+
+Elizabeth Bisbee, head of investigations at Chainalysis Government Solutions, testified she was “unaware” of scientific evidence for the accuracy of Chainalysis’ Reactor software used by law enforcement, an unreleased transcript of a June 23 hearing shows.
+
+The fact that Chainalysis’ blockchain demystification tools have become so widespread is a serious threat to the crypto ecosystem. Although industry insiders have raged against Chainalysis since it was founded, often accusing it of violating people’s financial privacy, there may be a better argument to make against the company and analysis firms like it: it’s within the realm of possibility that these surveillance machines don’t work as well as advertised.
+
+
+[article]([https://bitcoinmagazine.com/technical/chainalysis-investigations-lead-is-unaware-of-scientific-evidence])
+
+[podcast about Roman]([https://www.podpage.com/citadeldispatch/cd100-the-disturbing-chainalysis-led-prosecution-of-roman-sterlingov-with-mike-hassard-and-tor-ekeland/])
 
 ### Bitcoin Spot ETF Applications Refiled To Bring Coinbase Surveillance to Next Level
 
