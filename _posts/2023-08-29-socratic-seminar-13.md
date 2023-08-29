@@ -132,6 +132,24 @@ LNMarkets is a derivative trading platform that does deposits and withdrawals us
 
 [link](https://www.nobsbitcoin.com/imf-paper-on-taxing-cryptocurrencies/)
 
+### SEC charges NFT issuer Impact Theory for offering unregistered securities
+
+Not Bitcoin related, but general reminder that speculative tokens have regulatory risk
+
+[SEC announcement]([https://www.sec.gov/news/press-release/2023-163])
+
+### Tornado Cash Developers charged with Money Laundering and sanctions violation
+
+Not Bitcoin related, Tornado Cash is a non-custodial mixer for crypto.  Going after developers of privacy software brings concerns to those who work in the space, it is important to point out that projects surrounding Tornado Cash have at times attempted to work with surveillance companies,yet regulators will still go after them
+
+According to the indictment, Storm and Semenov designed Tornado Cash with various privacy features despite knowing that their service would be used for illicit purposes.
+"Moreover, the DOJ alleged they maintained control over Tornado Cash, which they could have used to implement transaction monitoring or other anti-money laundering features, despite publicly saying they could not actually control it."
+"The indictment also makes frequent references to Alexey Pertsev, another co-founder, who was arrested last year in the Netherlands, where he currently awaits trial on money laundering allegations."
+
+Bitcoin privacy projects (coin mixers with centralized coordinators) may also fall under the same scrutiny
+
+[article]([https://www.nobsbitcoin.com/tornado-cash-developers-charged-with-money-laundering-and-sanctions-violations/])
+
 ### Blockstream Greenlight announced
 
 Greenlight is a set of software tools to utilize Blockstream's infrastructure to utilize the lightning network in a self-custodial way
