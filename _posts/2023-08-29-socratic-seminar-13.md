@@ -12,7 +12,7 @@ Our thirteenth Socratic Seminar event will be held at our typical location 9 LiS
 
 We will start the socratic seminar discussion with general introductions and follow with discussion on the latest bitcoin developents and news.
 
-Learn about bitcoin development. Share, debate, and discuss trade offs in progress. We discuss a variety of developments, from industry updates and press releases, pull requests in popular git repositories (e.g. Bitcoin Core, lnd, c-lightning, rust-bitcoin, Joinmarket, WasabiWallet), research papers, technical blog posts, IRC logs, network monitors and more. Please add to the discussion topics on GitHub. We'd love to hear from you. After the event the we socialize over food and drinks. 
+Learn about bitcoin development. Share, debate, and discuss trade offs in progress. We discuss a variety of developments, from industry updates and press releases, pull requests in popular git repositories (e.g. Bitcoin Core, lnd, c-lightning, rust-bitcoin, Joinmarket, WasabiWallet), research papers, technical blog posts, IRC logs, network monitors and more. Please add to the discussion topics on GitHub. We'd love to hear from you. After the event the we socialize over food and drinks.
 
 我們每月舉辦的蘇格拉底式的研討會活動旨在促進辯論、信息共享和開放討論。在活動前幾週,聚會成員會從各種來源去整理討論主題：流行git倉儲（例如 Bitcoin Core、lnd、c-lightning、rust-bitcoin, Joinmarket、WasabiWallet）中的pull requests、研究論文、技術博客帖文、IRC 日誌、網絡監測等。經過一段時間的討論，一些活動會有來自開源項目、公司、研究和其他相關內容的介紹。隨後是反饋和問答部分。活動結束後，我們會在活動場地進行社交。
 
@@ -33,7 +33,7 @@ Bitbanana takes over the no longer maintained Zap Wallet. Zap was one of the fir
 
 ### Oman starts to mine bitcoin, declares Bitcoin Sharia Law compliant
 
-The Sultanate of Oman is a country in the Arabian Peninsula with a population of 5.4 Million. 
+The Sultanate of Oman is a country in the Arabian Peninsula with a population of 5.4 Million.
 
 H.E Sheikh Mansour Bin Taleb Bin Ali Al Hinai, Chairman of Oman's Authority for Public Services Regulations, publicly commented in a press statement about his nation’s government support of privately-owned bitcoin mining facilities, which are set to attract a total investment of over $1.1 billion, "this initiative aligns with our goal to diversify our economy, integrating modern technologies while upholding our commitment to ethical and sustainable practices."
 Apple forced Damus remove the "Zap" feature which enabled Lightning-tipping for posts.  Here is a work-around by replacing the "shaka" with a Zap.  This is possible because nostr is open
@@ -130,7 +130,29 @@ The Liquid Network is a federated network with certain members of the network be
 
 ### Serverless Payjoin
 
-[bitcoin op tech]([https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-August/021868.html])
+Payjoin is a technique for both sender and receiver to contribute inputs and outputs to the same transaction. This preserves the privacy of the sender and gives the receiver the opportunity to consolidate UTXOs.
+
+Current implementations of payjoin require the receiver to run a centralized server. How do we make it possible to perform payjoin when both parties cannot be online at the same time?
+
+[blog: Serverless Payjoin Gets its Wings](https://payjoin.substack.com/p/serverless-payjoin-gets-its-wings)
+
+[bip pull request](https://github.com/bitcoin/bips/pull/1483)
+
+[mailing list](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-August/021868.html)
+
+### Silent Payments
+
+Silent Payments is a new static address protocol that makes it impossible to create transactions that reuses spks, and makes it impossible for an outside observer to associate a payment with a payment address.
+
+[bip pull request](https://github.com/bitcoin/bips/pull/1458)
+
+[mailing list](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-March/020180.html)
+
+### CoinGrinder coin selection algorithm
+
+This is a new metric for coin selection that minimizes the weight of the input set while creating change? WHYYYYYY?
+
+[bitcoin core pull request](https://github.com/bitcoin/bitcoin/pull/27877)
 
 ### Civkit and BOLT12
 
