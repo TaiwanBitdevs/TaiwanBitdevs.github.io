@@ -58,6 +58,11 @@ This proposal attempts to simplify the current spec by removing one of the valid
 
 [tweet]([https://twitter.com/callebtc/status/1695346828584047085?s=20])
 
+### Zaprite introduces payment links
+Software service to allow businesses to accept Bitcoin payments integrating with current processes, includes invoicing for products and subscriptions using URL links
+
+[link]([https://twitter.com/ZapriteApp/status/1695120846774288738?s=20])
+[blog post]([https://blog.zaprite.com/zaprite-platform-upgrades/])
 
 ### SBW Wallet to shutdown Lightning functionality, will retain on-chain wallet
 
@@ -70,6 +75,13 @@ Simple Bitcoin Wallet is one of the early lightning wallets using a "hosted chan
 
 BIP300/BIP301 is proposed change to allow nodes to store additional messages on the blockchain, commonly believed to enable the Bitcoin network to secure sidechains.
 Disputes mostly surround its effect on mining incentivves and lack of activation method
+
+[paul sztorc tweet]([https://twitter.com/Truthcoin/status/1695804825307410790?s=20])
+[brian trollz tweet]([https://twitter.com/brian_trollz/status/1694389929822814355?s=20])
+[adam back tweet]([https://twitter.com/adam3us/status/1696185360571826247?s=20])
+
+[tweet about incentives]([https://twitter.com/MrHodl/status/1696138004408963203?s=20])
+[messing with incentives]([https://twitter.com/bergealex4/status/1695215070333018497?s=20])
 
 ### CTV Drama -- some articles and discussions to dive into
 
