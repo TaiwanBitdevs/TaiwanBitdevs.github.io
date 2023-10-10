@@ -21,6 +21,20 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 
 ## Discussion Topics
 
+### BITVM Arbitrary computation -- without softfork
+
+Announced by developer Robin Linus of ZeroSync, an association founded to help scale Bitcoin by using zero-knowledge proofs, BitVM is a design that enables arbitrary computation in Bitcoin script, and use that computation to enforce what happens to bitcoin on-chain.  This idea requires no softfork, it could enable proposals that had previously required soft forks to add new op-codes  
+
+"logic gates" are expressed in transactions using tapscript using tapleafs to represent possible states. two parties exchange the state of the computation by sharing the proof/commitment to each gate. due to the immense amount of computation, this will happen off-chain
+
+can there be more than two parties?
+
+[white paper] ([https://bitvm.org/bitvm.pdf])
+
+[annoucement] ([https://twitter.com/robin_linus/status/1711378768059584723])
+
+[article] ([https://bitcoinmagazine.com/technical/the-big-deal-with-bitvm-arbitrary-computation-now-possible-on-bitcoin-without-a-fork])
+
 ### BIP-324 Encrypted P2P and AssumeUTXO merged to Bitcoin Core
 
 BIP-324 will allow Bitcoin nodes to communicate with each other over encrypted connections, while AssumeUXTO option is set to allow instant UTXO set bootstrapping for Bitcoin nodes.
