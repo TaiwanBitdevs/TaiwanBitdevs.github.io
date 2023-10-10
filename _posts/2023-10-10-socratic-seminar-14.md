@@ -110,6 +110,14 @@ The bitcoin mining business is operationally complex and labor intensive. But th
 
 [article] ([https://bitcoinmagazine.com/business/drivechains-from-a-bitcoin-miners-perspective?ref=nobsbitcoin.com])
 
+
+###US Gov argues that disclosing ChainAnalysis heuristics would jepordize investigations
+
+US govt argues that disclosure of Chainalysis heuristics information in the case US vs Sterlingov would “jeopardize numerous law enforcement investigations and impact the effectiveness of law enforcement tracing tools” by enabling the development of “criminal countermeasures to blockchain analysis.”
+
+[article] ([https://bitcoinmagazine.com/legal/us-government-frames-bitcoin-privacy-as-criminal?ref=nobsbitcoin.com])
+
+
 ### Chainanalysis criticisms
 
 Roman Sterlingov is currently being prosecuted for operating bitcoin centralized coinmixer Bitcoin Fog on evidence collected by US investigators using data from chain/data analysis company ChainAnalysis
