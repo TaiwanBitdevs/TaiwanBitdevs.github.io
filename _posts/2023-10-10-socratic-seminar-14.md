@@ -104,11 +104,11 @@ This follows ongoing legal harassment of Bitcoin contributors
 
 [link]([https://www.nobsbitcoin.com/bitcoin-org-operator-loses-appeal-to-craig-wright/])
 
-### CTV Drama -- some articles and discussions to dive into
+### Drivechains (BIP300) - a Miners perspective
 
-CTV refers to BIP119. CheckTemplateVerify is an OP code to interchangeably use UTXOs under certain conditions.  CheckTemplateVerify can enable things like channel splicing/channel factories
-CTV has been criticized for its activation method, wanting to go the route of miner activation (like Taproot)
+The bitcoin mining business is operationally complex and labor intensive. But that is a natural consequence of the narrow and well defined role they have been playing since Bitcoin’s inception. Asking miners to adjudicate disputes on a sidechain, potentially many of them at once, doesn’t just add additional business complexity, it changes the fundamentally neutral role miners play in validating transactions. Disputes are inevitable and the complexity around power, incentives, and rules becomes uncertain from a miners point of view. As of now, the power of miners is checked, and extends only to ensuring transactions satisfy consensus rules, which all parties know and agree to. While drivechains can drive additional revenue to Bitcoin miners, this addition of judgment to the protocol is deeply risky, and is trading short-term revenue for potential long-term consequences which remain largely unknown. This is simply not a wise trade off."
 
+[article] ([https://bitcoinmagazine.com/business/drivechains-from-a-bitcoin-miners-perspective?ref=nobsbitcoin.com])
 
 ### Chainanalysis criticisms
 
