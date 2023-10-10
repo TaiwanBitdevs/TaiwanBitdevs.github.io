@@ -31,8 +31,7 @@ can there be more than two parties?
 
 [white paper] ([https://bitvm.org/bitvm.pdf])
 
-[annoucement] ([https://twitter.com/robin_linus/status/1711378768059584723])
-[MATT - merkleize all the things!] ([https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-November/021182.html])
+[annoucement] ([https://twitter.com/robin_linus/status/1711378768059584723]) ([https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-November/021182.html])
 
 [article] ([https://bitcoinmagazine.com/technical/the-big-deal-with-bitvm-arbitrary-computation-now-possible-on-bitcoin-without-a-fork])
 
