@@ -40,6 +40,7 @@ can there be more than two parties?
 BIP-324 will allow Bitcoin nodes to communicate with each other over encrypted connections, while AssumeUXTO option is set to allow instant UTXO set bootstrapping for Bitcoin nodes.
 
 [link]([https://github.com/bitcoin/bitcoin/pull/28331])
+[bip-324] ([https://github.com/bitcoin/bips/blob/master/bip-0324.mediawiki])
 
 ### UTXOracle.py daily Bitcoin price using blockchain data
 
