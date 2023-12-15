@@ -45,6 +45,7 @@ After a series of posts, F2Pool's co-founder, Chun, admitted that F2Pool had bee
 Note: this is censorship as OFAC lists have nothing to do with enforcing Bitcoin transactions, transactions are still free to relay on other nodes and mined elsewhere
 
 [OxB10c Report]([https://b10c.me/observations/08-missing-sanctioned-transactions])
+
 [F2Pool walkback]([https://nitter.net/satofishi/status/1727194584231662042])
 
 ### Ocean Mining Pool launch - filtering of transactions enforcing -datacarriersize
@@ -57,6 +58,7 @@ OCEAN uses Bitcoin Knots, which is another implementation of Bitcoin, it current
 Note: this is filteriing as the criteria is set within Bitcoin itself, transactions are still free to relay on other nodes and mined elsewhere
 
 [blog post]([https://b10c.me/observations/07-invalid-block-809478/])
+
 [annnouncement]([https://www.prnewswire.com/news-releases/jack-dorsey-leads-seed-round-in-support-of-oceans-mission-to-decentralize-bitcoin-mining-globally---announces-launch-at-future-of-bitcoin-mining-conference-301999073.html])
 
 ### Ledger Live Tracks and Sends ALL User Information to Outsourced Data Harvesting Service
@@ -75,10 +77,22 @@ Zeus is a self-custodial mobile Lightning wallet with an embedded node, Lightnin
 
 [blog post]([https://lightning.engineering/posts/2023-10-03-lnd-0.17-launch/])
 
-### Fedimint v0.1.0 release
-Fedimint is a federated Chaumian e-cash mint backed by bitcoin with deposits and withdrawals that can occur on-chain or via Lightning.
+### Elizabeth Warren Wants to Extend Bank Secrecy Act Regulations to Free & Open Source Software
 
-[nostr annoucement]([https://nostr.com/note14h5x4td8p3rtanrvysuhel3mu5mdkzuytxt93678hkpaxc06jjrq9kskka])
+The bill aims to extend Bank Secrecy Act (BSA) requirements including know-your-customer (KYC) rules to miners, validators, wallet providers and others.
+
+The Digital Asset Anti-Money Laundering Act would: 
+
+* Extend Bank Secrecy Act (BSA) responsibilities, including Know-Your-Customer requirements, to digital asset wallet providers, miners, validators, and other network participants that may act to validate, secure, or facilitate digital asset transactions.
+* Address a major gap with respect to “unhosted” digital wallets – which allow individuals to bypass AML and sanctions checks – by directing FinCEN to finalize and implement its December 2020 proposed rule, which would require banks and money service businesses (MSBs) to verify customer and counterparty identities, keep records, and file reports in relation to certain digital asset transactions involving unhosted wallets or wallets hosted in non-BSA compliant jurisdictions.
+* Direct FinCEN to issue guidance to financial institutions on mitigating the risks of handling, using, or transacting with digital assets that have been anonymized using digital asset mixers and other anonymity-enhancing technologies. 
+* Strengthen enforcement of BSA compliance by directing the Treasury Department to establish an AML/CFT compliance examination and review process for MSBs and other digital asset entities with BSA obligations and directing the Securities and Exchange Commission and Commodity Futures Trading Commission to establish AML/CFT compliance examination and review processes for the entities they regulate. 
+* Extend BSA rules regarding reporting of foreign bank accounts to include digital assets by requiring United States persons engaged in a transaction with a value greater than $10,000 in digital assets through one or more offshore accounts to file a Report of Foreign Bank and Financial Accounts (FBAR) with the Internal Revenue Service. 
+* Mitigate the illicit finance risks of digital asset ATMs by directing FinCEN to ensure that digital asset ATM owners and administrators regularly submit and update the physical addresses of the kiosks they own or operate and verify customer and counterparty identity.
+
+Note: Often Republic of China/Taiwan policy follows suit with the US, so best to keep alert on what is happening with the KYC/AML side -- however generally everyone is already KYC'ed
+
+[nobsbitcoin link]([https://www.nobsbitcoin.com/elizabeth-warren-wants-bank-secrecy/])
 
 ### Primal nostr client offers Lightning Wallet with Apple Pay Top ups (even for Taiwan!)
 
