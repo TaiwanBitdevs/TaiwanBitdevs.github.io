@@ -28,13 +28,14 @@ Bitcoin Core version 26.0 is now available for download. It includes experimenta
 BIP-324 will allow Bitcoin nodes to communicate with each other over encrypted connections, while AssumeUXTO option is set to allow instant UTXO set bootstrapping for Bitcoin nodes.
 
 [link]([https://github.com/bitcoin/bitcoin/pull/28331])
-[bip-324] ([https://github.com/bitcoin/bips/blob/master/bip-0324.mediawiki])
 
-[release notes] ([https://bitcoincore.org/en/releases/26.0/])
+[bip-324]([https://github.com/bitcoin/bips/blob/master/bip-0324.mediawiki])
 
-[annoucement] ([https://lists.linuxfoundation.org/pipermail/bitcoin-core-dev/2023-December/000131.html])
+[release notes]([https://bitcoincore.org/en/releases/26.0/])
 
-[article] ([https://bitcoinmagazine.com/technical/the-big-deal-with-bitvm-arbitrary-computation-now-possible-on-bitcoin-without-a-fork])
+[annoucement]([https://lists.linuxfoundation.org/pipermail/bitcoin-core-dev/2023-December/000131.html])
+
+[article]([https://bitcoinmagazine.com/technical/the-big-deal-with-bitvm-arbitrary-computation-now-possible-on-bitcoin-without-a-fork])
 
 ### F2Pool reverses course on censoring OFAC transactions
 
@@ -43,8 +44,8 @@ After a series of posts, F2Pool's co-founder, Chun, admitted that F2Pool had bee
 
 Note: this is censorship as OFAC lists have nothing to do with enforcing Bitcoin transactions, transactions are still free to relay on other nodes and mined elsewhere
 
-[OxB10c Report] ([https://b10c.me/observations/08-missing-sanctioned-transactions])
-[F2Pool walkback] ([https://nitter.net/satofishi/status/1727194584231662042])
+[OxB10c Report]([https://b10c.me/observations/08-missing-sanctioned-transactions])
+[F2Pool walkback]([https://nitter.net/satofishi/status/1727194584231662042])
 
 ### Ocean Mining Pool launch - filtering of transactions enforcing -datacarriersize
 
@@ -55,8 +56,8 @@ OCEAN uses Bitcoin Knots, which is another implementation of Bitcoin, it current
 
 Note: this is filteriing as the criteria is set within Bitcoin itself, transactions are still free to relay on other nodes and mined elsewhere
 
-[blog post] ([https://b10c.me/observations/07-invalid-block-809478/])
-[annnouncement] ([https://www.prnewswire.com/news-releases/jack-dorsey-leads-seed-round-in-support-of-oceans-mission-to-decentralize-bitcoin-mining-globally---announces-launch-at-future-of-bitcoin-mining-conference-301999073.html])
+[blog post]([https://b10c.me/observations/07-invalid-block-809478/])
+[annnouncement]([https://www.prnewswire.com/news-releases/jack-dorsey-leads-seed-round-in-support-of-oceans-mission-to-decentralize-bitcoin-mining-globally---announces-launch-at-future-of-bitcoin-mining-conference-301999073.html])
 
 ### Ledger Live Tracks and Sends ALL User Information to Outsourced Data Harvesting Service
 
