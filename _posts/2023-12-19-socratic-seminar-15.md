@@ -87,6 +87,18 @@ Apple Pay charges a fee
 
 [app store]([https://apps.apple.com/us/app/primal/id1673134518])
 
+### FASB Officially Adopts Fair Value Accounting Rules for Bitcoin Starting December 2024
+
+"FASB has officially adopted Fair Value Accounting for Bitcoin for fiscal years beginning after December 15, 2024. This upgrade to accounting standards will facilitate the adoption of BTC as a treasury reserve asset by corporations worldwide," said MicroStrategy's Chairman Michael Saylor on X.
+Stakeholders stated that the current accounting—except as provided in generally accepted accounting principles (GAAP) for certain specialized industries—for holdings of crypto assets as indefinite-lived intangible assets, which is a cost-less-impairment accounting model, does not provide investors, lenders, creditors, and other allocators of capital (collectively, “investors”) with decision-useful information.
+
+Specifically, accounting for only the decreases, but not the increases, in the value of crypto assets in the financial statements until they are sold does not provide relevant information that reflects (1) the underlying economics of those assets and (2) an entity’s financial position. Investors also requested additional disclosures about the types of crypto assets held by entities and the changes in those holdings.
+
+In addition to better reflecting the economics of crypto assets, measuring those assets at fair value will likely reduce cost and complexity associated with applying the current cost-less-impairment accounting model for many entities.
+  
+[Press Release]([https://www.fasb.org/page/getarticle?uid=fasb_Media_Advisory_12-13-23])
+
+
 ### Diamond Hands announces partnership with Boltz to provide lightning liquidity swap services for Bitcoin and Liquid
 
 Diamond Hands released a new and improved DH Swap service for better Lightning liquidity management in partnership with Boltz.
@@ -102,6 +114,14 @@ Strike allows Taiwan users to register and supports VISA debit card deposits.  B
 Strike currently has no banking relationships in Taiwan
 
 [link]([https://www.nobsbitcoin.com/strike-announced-buy-bitcoin-globally-feature/])
+
+### BTCPayServer - LNBank Plugin Exploit
+
+LNbank is a plugin for BTCPay Server to use the internal Lightning node in custodial mode: It allows server admins to open up the Lightning node and give users access via custodial layer 3 wallets. All users of BTCPay Server's LNbank plugin are urged to upgrade to to v1.8.9 as soon as possible.
+
+Note: This is a form of hot wallet risk. Software running on lightning nodes often have full control of the node in question which means any vulnerability found in that software can be used to steal balances.  Recommend to be careful of what apps to run, and secure authentication token files properly (LND uses special cookies called macaroons)  
+
+[Stacker News]([https://stacker.news/items/347361?ref=nobsbitcoin.com])
 
 ### Lightning HTLCs, in detail!
 
