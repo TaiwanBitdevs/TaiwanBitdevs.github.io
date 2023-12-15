@@ -97,7 +97,9 @@ Note: Often Republic of China/Taiwan policy follows suit with the US, so best to
 ### Primal nostr client offers Lightning Wallet with Apple Pay Top ups (even for Taiwan!)
 
 Primal is a nostr client that works on Web, iOS, Android.  Great explore feature.  Offers a Zap-enabled lightning wallet which can hold up to 1.5million satoshis with a $15US/day buy limit.
-Apple Pay charges a fee
+Apple Pay charges an additional fee to buy Bitcoin in this way
+
+Note: Ln.bitdevs.tw now supports zaps!
 
 [app store]([https://apps.apple.com/us/app/primal/id1673134518])
 
@@ -148,6 +150,13 @@ This post will walk through the different operations of a Lightning channel by f
 
 Taiwan BitDevs would like to explore Nostr with the audience by generating an npub with the audience present to follow along.
 Nostr stands for "notes and other stuff transmitted over relays" it is a protocol designed around censorship resistance which can be used for social media. Nostr is a lot of fun and a great way to use Lightning Network (NIP-57 / zaps / LNURL)
+
+#### NIP update - nostr marketplace (NIP-15)
+Theres an LNBits extension that allows you to list and shop for goods using nostr relays and get paid through Bitcoin/Lightning
+
+[tutorial](https://github.com/lnbits/lnbits/wiki/LNbits-Extensions)
+[nip-15]([https://github.com/nostr-protocol/nips/blob/master/15.md])
+
 
 [github link](https://github.com/nostr-protocol/nostr)
 
