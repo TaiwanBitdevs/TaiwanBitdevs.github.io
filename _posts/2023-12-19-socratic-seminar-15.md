@@ -61,6 +61,8 @@ Note: this is filteriing as the criteria is set within Bitcoin itself, transacti
 
 [annnouncement]([https://www.prnewswire.com/news-releases/jack-dorsey-leads-seed-round-in-support-of-oceans-mission-to-decentralize-bitcoin-mining-globally---announces-launch-at-future-of-bitcoin-mining-conference-301999073.html])
 
+[explanation on why these transactions should be filtered]([https://primal.net/e/note1xakyurzpw8hdgrv7sgf7adwldsywxfp5njn3k4jhcsck2afuryfshax4rl])
+
 ### Ledger Live Tracks and Sends ALL User Information to Outsourced Data Harvesting Service
 
 "Ledger Live is phoning out data on assets you hold in your hardware wallet the moment you access Ledger Live. It's also sending out tons of other info about your computer and device," wrote @rektbuildr
