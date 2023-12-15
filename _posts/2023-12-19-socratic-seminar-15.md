@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "Socratic Seminar 15: Merry Christmas~ You want the Moon? Just say the word and I'll throw a lasso around it and pull it down"
-meetup: https://www.meetup.com/taiwan-bitdevs/events/296527753/
+meetup: https://www.meetup.com/taiwan-bitdevs/events/297879249/
 ---
 
 ## Announcements
