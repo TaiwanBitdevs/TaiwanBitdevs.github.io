@@ -107,7 +107,7 @@ Note: Often Republic of China/Taiwan policy follows suit with the US, so best to
 
 Investment manager Blackrock had on Monday, December 18, 2023 submitted an amendment to the form S-1 for its iShares Bitcoin Trust as part of its spot Bitcoin ETF filing with the U.S. Securities and Exchange Commission (SEC).
 
-[link to amendment] ([https://www.sec.gov/Archives/edgar/data/1980994/000143774923034772/bit20231215_s1a.htm])
+[link to amendment]([https://www.sec.gov/Archives/edgar/data/1980994/000143774923034772/bit20231215_s1a.htm])
 
 ### Primal nostr client offers Lightning Wallet with Apple Pay Top ups (even for Taiwan!)
 
