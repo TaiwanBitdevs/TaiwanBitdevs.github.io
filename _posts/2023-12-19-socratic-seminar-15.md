@@ -169,7 +169,20 @@ Nodes which apply the patch have the drawbacks of fee-estimations being off and 
 Note: demonstration available on how to apply the patch (homework!)
 
 [CVE-2023-50428]([https://nvd.nist.gov/vuln/detail/CVE-2023-50428])
+
 [Pull Request/Patch]([https://github.com/bitcoin/bitcoin/pull/28408/commits])
+
+### AntPool to Return 83 BTC Fee to Person Who Signs Message From the Compromised Wallet
+
+AntPool said that it will return the 83 BTC fee if the owner of the compromised wallet comes forward before December 10, though its verification method appears to be far from ideal in the current situation.
+
+Note: This actually doesn't work, the theft in question refers to a (possible) low-entropy wallet, if the key can be known by anyone than signing messages would be useless
+
+[Antpool Post]([https://www.antpool.com/newsDetail/457?ref=nobsbitcoin.com])
+
+[Cold Wallet Hack?]([https://www.nobsbitcoin.com/83-btc-fee-cold-wallet-hack/])
+
+[Cracking Brain wallets (2015)]([https://www.youtube.com/watch?v=foil0hzl4Pg])
 
 ### Lightning HTLCs, in detail!
 
