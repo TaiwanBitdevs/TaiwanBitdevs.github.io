@@ -27,15 +27,15 @@ Bitcoin Core version 26.0 is now available for download. It includes experimenta
 
 BIP-324 will allow Bitcoin nodes to communicate with each other over encrypted connections, while AssumeUXTO option is set to allow instant UTXO set bootstrapping for Bitcoin nodes.
 
-[link]([https://github.com/bitcoin/bitcoin/pull/28331])
+[link](https://github.com/bitcoin/bitcoin/pull/28331)
 
-[bip-324]([https://github.com/bitcoin/bips/blob/master/bip-0324.mediawiki])
+[bip-324](https://github.com/bitcoin/bips/blob/master/bip-0324.mediawiki)
 
-[release notes]([https://bitcoincore.org/en/releases/26.0/])
+[release notes](https://bitcoincore.org/en/releases/26.0/)
 
-[annoucement]([https://lists.linuxfoundation.org/pipermail/bitcoin-core-dev/2023-December/000131.html])
+[annoucement](https://lists.linuxfoundation.org/pipermail/bitcoin-core-dev/2023-December/000131.html)
 
-[article]([https://bitcoinmagazine.com/technical/the-big-deal-with-bitvm-arbitrary-computation-now-possible-on-bitcoin-without-a-fork])
+[article](https://bitcoinmagazine.com/technical/the-big-deal-with-bitvm-arbitrary-computation-now-possible-on-bitcoin-without-a-fork)
 
 ### F2Pool reverses course on censoring OFAC transactions
 
@@ -44,9 +44,9 @@ After a series of posts, F2Pool's co-founder, Chun, admitted that F2Pool had bee
 
 Note: this is censorship as OFAC lists have nothing to do with enforcing Bitcoin transactions, transactions are still free to relay on other nodes and mined elsewhere
 
-[OxB10c Report]([https://b10c.me/observations/08-missing-sanctioned-transactions])
+[OxB10c Report](https://b10c.me/observations/08-missing-sanctioned-transactions)
 
-[F2Pool walkback]([https://nitter.net/satofishi/status/1727194584231662042])
+[F2Pool walkback](https://nitter.net/satofishi/status/1727194584231662042)
 
 ### Ocean Mining Pool launch - filtering of transactions enforcing -datacarriersize
 
@@ -57,18 +57,18 @@ OCEAN uses Bitcoin Knots, which is another implementation of Bitcoin, it current
 
 Note: this is filteriing as the criteria is set within Bitcoin itself, transactions are still free to relay on other nodes and mined elsewhere
 
-[blog post]([https://b10c.me/observations/07-invalid-block-809478/])
+[blog post](https://b10c.me/observations/07-invalid-block-809478/)
 
-[annnouncement]([https://www.prnewswire.com/news-releases/jack-dorsey-leads-seed-round-in-support-of-oceans-mission-to-decentralize-bitcoin-mining-globally---announces-launch-at-future-of-bitcoin-mining-conference-301999073.html])
+[annnouncement](https://www.prnewswire.com/news-releases/jack-dorsey-leads-seed-round-in-support-of-oceans-mission-to-decentralize-bitcoin-mining-globally---announces-launch-at-future-of-bitcoin-mining-conference-301999073.html)
 
-[explanation on why these transactions should be filtered]([https://primal.net/e/note1xakyurzpw8hdgrv7sgf7adwldsywxfp5njn3k4jhcsck2afuryfshax4rl])
+[explanation on why these transactions should be filtered](https://primal.net/e/note1xakyurzpw8hdgrv7sgf7adwldsywxfp5njn3k4jhcsck2afuryfshax4rl)
 
 ### Mempool Googles - New feature on mempool.space
 
 Mempool Goggles is a new visualization tool that lets you explore mempool transactions through 25 different filters.
 > "Click on the Mempool Goggles icon at the top left of the mempool block visualization to reveal the new filter menu. There are 25 different categories to explore, or mix-and-match to narrow down your focus even further."
 
-[mempool page]([https://mempool.space])
+[mempool page](https://mempool.space)
 
 ### Ledger Live Tracks and Sends ALL User Information to Outsourced Data Harvesting Service
 
@@ -76,7 +76,7 @@ Mempool Goggles is a new visualization tool that lets you explore mempool transa
 Channel splicing allows for flexible channel capacities without increasing on-chain footprint
 Note that existing swap addresses should no longer be used!
 
-[Full post]([https://crypto.bi/forum/threads/ledger-live-data-collection-is-more-than-a-little-concerning.5/?ref=nobsbitcoin.com])
+[Full post](https://crypto.bi/forum/threads/ledger-live-data-collection-is-more-than-a-little-concerning.5/?ref=nobsbitcoin.com)
 
 ### Zeus Wallet - remote control lightning node now also has option to run a node on the app
 
@@ -84,7 +84,7 @@ Zeus offers a node-on-the-phone (LND) which opens channels with Zeus, invoices g
 Zeus is a self-custodial mobile Lightning wallet with an embedded node, Lightning service provider, and self-custodial lightning addresses. It can also be used as mobile Bitcoin/Lightning node manager and wallet app for LND, CLN, and Eclair.
 
 
-[blog post]([https://lightning.engineering/posts/2023-10-03-lnd-0.17-launch/])
+[blog post](https://lightning.engineering/posts/2023-10-03-lnd-0.17-launch/)
 
 ### Elizabeth Warren Wants to Extend Bank Secrecy Act Regulations to Free & Open Source Software
 
@@ -101,13 +101,13 @@ The Digital Asset Anti-Money Laundering Act would:
 
 Note: Often Republic of China/Taiwan policy follows suit with the US, so best to keep alert on what is happening with the KYC/AML side -- however generally everyone is already KYC'ed
 
-[nobsbitcoin link]([https://www.nobsbitcoin.com/elizabeth-warren-wants-bank-secrecy/])
+[nobsbitcoin link](https://www.nobsbitcoin.com/elizabeth-warren-wants-bank-secrecy/)
 
 ### Blackrock iShares Bitcoin Trust submits S-1 Amendment
 
 Investment manager Blackrock had on Monday, December 18, 2023 submitted an amendment to the form S-1 for its iShares Bitcoin Trust as part of its spot Bitcoin ETF filing with the U.S. Securities and Exchange Commission (SEC).
 
-[link to amendment]([https://www.sec.gov/Archives/edgar/data/1980994/000143774923034772/bit20231215_s1a.htm])
+[link to amendment](https://www.sec.gov/Archives/edgar/data/1980994/000143774923034772/bit20231215_s1a.htm)
 
 ### Primal nostr client offers Lightning Wallet with Apple Pay Top ups (even for Taiwan!)
 
@@ -116,7 +116,7 @@ Apple Pay charges an additional fee to buy Bitcoin in this way
 
 Note: Ln.bitdevs.tw now supports zaps!
 
-[app store]([https://apps.apple.com/us/app/primal/id1673134518])
+[app store](https://apps.apple.com/us/app/primal/id1673134518)
 
 ### FASB Officially Adopts Fair Value Accounting Rules for Bitcoin Starting December 2024
 
@@ -127,7 +127,7 @@ Specifically, accounting for only the decreases, but not the increases, in the v
 
 In addition to better reflecting the economics of crypto assets, measuring those assets at fair value will likely reduce cost and complexity associated with applying the current cost-less-impairment accounting model for many entities.
   
-[Press Release]([https://www.fasb.org/page/getarticle?uid=fasb_Media_Advisory_12-13-23])
+[Press Release](https://www.fasb.org/page/getarticle?uid=fasb_Media_Advisory_12-13-23)
 
 
 ### Diamond Hands announces partnership with Boltz to provide lightning liquidity swap services for Bitcoin and Liquid
@@ -136,7 +136,7 @@ Diamond Hands released a new and improved DH Swap service for better Lightning l
 
 Note: Liquid is a great solution during high fee environments
 
-[article]([https://www.nobsbitcoin.com/diamond-hands-partners-with-boltz-to-improve-dh-swap-service/])
+[article](https://www.nobsbitcoin.com/diamond-hands-partners-with-boltz-to-improve-dh-swap-service/)
 
 ### Strike opens up for Taiwan Users!
 
@@ -144,7 +144,7 @@ Strike offers global remittance through the Bitcoin Network, using Lightning.
 Strike allows Taiwan users to register and supports VISA debit card deposits.  Balances are only held in USD
 Strike currently has no banking relationships in Taiwan
 
-[link]([https://www.nobsbitcoin.com/strike-announced-buy-bitcoin-globally-feature/])
+[link](https://www.nobsbitcoin.com/strike-announced-buy-bitcoin-globally-feature/)
 
 ### BTCPayServer - LNBank Plugin Exploit
 
@@ -152,7 +152,7 @@ LNbank is a plugin for BTCPay Server to use the internal Lightning node in custo
 
 Note: This is a form of hot wallet risk. Software running on lightning nodes often have full control of the node in question which means any vulnerability found in that software can be used to steal balances.  Recommend to be careful of what apps to run, and secure authentication token files properly (LND uses special cookies called macaroons)  
 
-[Stacker News]([https://stacker.news/items/347361?ref=nobsbitcoin.com])
+[Stacker News](https://stacker.news/items/347361?ref=nobsbitcoin.com)
 
 ### Discussion on CVE-2023-50428 / Vulnerability in Bitcoin Core and Bitcoin Knots
 
@@ -168,9 +168,9 @@ Nodes which apply the patch have the drawbacks of fee-estimations being off and 
 
 Note: demonstration available on how to apply the patch (homework!)
 
-[CVE-2023-50428]([https://nvd.nist.gov/vuln/detail/CVE-2023-50428])
+[CVE-2023-50428](https://nvd.nist.gov/vuln/detail/CVE-2023-50428)
 
-[Pull Request/Patch]([https://github.com/bitcoin/bitcoin/pull/28408/commits])
+[Pull Request/Patch](https://github.com/bitcoin/bitcoin/pull/28408/commits)
 
 ### AntPool to Return 83 BTC Fee to Person Who Signs Message From the Compromised Wallet
 
@@ -178,11 +178,11 @@ AntPool said that it will return the 83 BTC fee if the owner of the compromised 
 
 Note: This actually doesn't work, the theft in question refers to a (possible) low-entropy wallet, if the key can be known by anyone than signing messages would be useless
 
-[Antpool Post]([https://www.antpool.com/newsDetail/457?ref=nobsbitcoin.com])
+[Antpool Post](https://www.antpool.com/newsDetail/457?ref=nobsbitcoin.com)
 
-[Cold Wallet Hack?]([https://www.nobsbitcoin.com/83-btc-fee-cold-wallet-hack/])
+[Cold Wallet Hack?](https://www.nobsbitcoin.com/83-btc-fee-cold-wallet-hack/)
 
-[Cracking Brain wallets (2015)]([https://www.youtube.com/watch?v=foil0hzl4Pg])
+[Cracking Brain wallets (2015)](https://www.youtube.com/watch?v=foil0hzl4Pg)
 
 ### Lightning HTLCs, in detail!
 
@@ -200,7 +200,7 @@ Nostr stands for "notes and other stuff transmitted over relays" it is a protoco
 Theres an LNBits extension that allows you to list and shop for goods using nostr relays and get paid through Bitcoin/Lightning
 
 [tutorial](https://github.com/lnbits/lnbits/wiki/LNbits-Extensions)
-[nip-15]([https://github.com/nostr-protocol/nips/blob/master/15.md])
+[nip-15](https://github.com/nostr-protocol/nips/blob/master/15.md)
 
 
 [github link](https://github.com/nostr-protocol/nostr)
