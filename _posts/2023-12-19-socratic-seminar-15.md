@@ -63,6 +63,13 @@ Note: this is filteriing as the criteria is set within Bitcoin itself, transacti
 
 [explanation on why these transactions should be filtered]([https://primal.net/e/note1xakyurzpw8hdgrv7sgf7adwldsywxfp5njn3k4jhcsck2afuryfshax4rl])
 
+### Mempool Googles - New feature on mempool.space
+
+Mempool Goggles is a new visualization tool that lets you explore mempool transactions through 25 different filters.
+> "Click on the Mempool Goggles icon at the top left of the mempool block visualization to reveal the new filter menu. There are 25 different categories to explore, or mix-and-match to narrow down your focus even further."
+
+[mempool page]([https://mempool.space])
+
 ### Ledger Live Tracks and Sends ALL User Information to Outsourced Data Harvesting Service
 
 "Ledger Live is phoning out data on assets you hold in your hardware wallet the moment you access Ledger Live. It's also sending out tons of other info about your computer and device," wrote @rektbuildr
@@ -95,6 +102,12 @@ The Digital Asset Anti-Money Laundering Act would:
 Note: Often Republic of China/Taiwan policy follows suit with the US, so best to keep alert on what is happening with the KYC/AML side -- however generally everyone is already KYC'ed
 
 [nobsbitcoin link]([https://www.nobsbitcoin.com/elizabeth-warren-wants-bank-secrecy/])
+
+### Blackrock iShares Bitcoin Trust submits S-1 Amendment
+
+Investment manager Blackrock had on Monday, December 18, 2023 submitted an amendment to the form S-1 for its iShares Bitcoin Trust as part of its spot Bitcoin ETF filing with the U.S. Securities and Exchange Commission (SEC).
+
+[link to amendment] ([https://www.sec.gov/Archives/edgar/data/1980994/000143774923034772/bit20231215_s1a.htm])
 
 ### Primal nostr client offers Lightning Wallet with Apple Pay Top ups (even for Taiwan!)
 
@@ -140,6 +153,23 @@ LNbank is a plugin for BTCPay Server to use the internal Lightning node in custo
 Note: This is a form of hot wallet risk. Software running on lightning nodes often have full control of the node in question which means any vulnerability found in that software can be used to steal balances.  Recommend to be careful of what apps to run, and secure authentication token files properly (LND uses special cookies called macaroons)  
 
 [Stacker News]([https://stacker.news/items/347361?ref=nobsbitcoin.com])
+
+### Discussion on CVE-2023-50428 / Vulnerability in Bitcoin Core and Bitcoin Knots
+
+Why this is a CVE - the software which creates these OP_IF/FALSE/PUSH transactions circumvents the existing filters, and there is no such mechanism is in place to to recognize these transactions as non-standard (there are no configuration options to address this).
+
+datacarrier and datacarrier size parameters in bitcoin.conf does not include inscription transactions
+
+Companies and individuals maintain their own versions of Bitcoin software and should be monitoring vulnerabilities across their stack. Ultimately everyone can decide whether or not a CVE applies to them, whether or not vulnerability should be classified as such is not the issue, it is a situation to address.
+
+There is a patch available as commit #28408, the patch does not censor ordinals, it simply subjects an expanded set of transactions which inscribe data onto the blockchain to go through the same filters as before. The miners aligned with the patch are forgoing mining fees to run this filter.
+
+Nodes which apply the patch have the drawbacks of fee-estimations being off and slower block validation times.
+
+Note: demonstration available on how to apply the patch (homework!)
+
+[CVE-2023-50428]([https://nvd.nist.gov/vuln/detail/CVE-2023-50428])
+[Pull Request/Patch]([https://github.com/bitcoin/bitcoin/pull/28408/commits])
 
 ### Lightning HTLCs, in detail!
 
