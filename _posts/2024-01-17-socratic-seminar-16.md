@@ -54,6 +54,11 @@ Filters will not cause forks and blocks with inscriptions are still validated co
 
 note: Taiwan BitDevs also has a patched version (compiled by LeTenken) and Umbrel-compatible Docker Image
 
+#### Do filters work? Some don't think so
+
+Rob Hamilton boasted about sending a less-than-dust payment by going out-of-band with F2Pool.  There is a sentiment that mempool filters would do nothing but drive usage toward out-of-band payments. 
+[twitter](https://x.com/francispouliot_/status/1743704660123308387?s=20)
+
 [Bitcoin Knots](https://github.com/bitcoinknots/bitcoin)
 
 [Start9 Docker Image](https://x.com/GrassFedBitcoin/status/1746992663591792968?s=20)
