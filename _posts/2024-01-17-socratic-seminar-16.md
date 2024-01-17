@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "Socratic Seminar 16: Happy New Year! Post-Election Discussion"
-meetup: https://www.meetup.com/taiwan-bitdevs/events/297879249/
+meetup: https://www.meetup.com/taiwan-bitdevs/events/298557984/
 ---
 
 ## Announcements
