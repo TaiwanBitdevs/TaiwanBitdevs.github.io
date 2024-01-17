@@ -26,6 +26,7 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 US regulators for the first time approved exchange-traded funds that invest directly in Bitcoin, a move heralded as a landmark event for the roughly $1.7 trillion digital-asset sector that will broaden access to the largest cryptocurrency on Wall Street and beyond.
 
 [SEC Announcement](https://www.sec.gov/news/statement/gensler-statement-spot-bitcoin-011023)
+[$10 Billion in 3 days 🤯](https://x.com/JSeyff/status/1747366266166206505?s=20)
 
 ### Blackrock ETF Bitcoin Address found?
 
