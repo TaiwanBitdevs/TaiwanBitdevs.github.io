@@ -175,6 +175,12 @@ Note: demonstration available on how to apply the patch (homework!)
 
 [Pull Request/Patch](https://github.com/bitcoin/bitcoin/pull/28408/commits)
 
+### Sending 26.9 BTC down the Bitcoin Wishing Well
+
+1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa is known to be the Address where the Genesis Block blockreward went. Technically there is no block reward for the Genesis Block as it cannot be spent -- because it has no utxo to reference.  Users have been sending Bitcoin to this address for a long time, for what reason one can only speculate 😂
+
+[tx id](https://mempool.space/tx/d7db4f96a4059c8906b953677ce533493d7b9da0f854a21b99f5772910dd0a31)
+
 ### Lightning HTLCs, in detail!
 
 A very nice explanation on the HTLCs that traverse the lightning network
