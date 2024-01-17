@@ -27,6 +27,14 @@ US regulators for the first time approved exchange-traded funds that invest dire
 
 [SEC Announcement](https://www.sec.gov/news/statement/gensler-statement-spot-bitcoin-011023)
 
+### Blackrock ETF Bitcoin Address found?
+
+It didn't take long. Just two days after BlackRock and other bitcoin spot ETFs began trading, we can reveal at least one on-chain address that belongs to BlackRock.
+
+The address has 227.90249795 BTC, funded on January 5th, corresponding fully to BlackRock's own prospectus that they bought that many BTC on that day.
+
+[article](https://www.trustnodes.com/2024/01/14/revealed-the-blackrock-bitcoin-address-is-identified)
+
 ### Aqua Wallet - Lightning - Liquid Wallet
 
 Aqua Wallet, developed by Jan3, is a non-custodial mobile Bitcoin, Lightning, Liquid and Tether USDT (on Liquid, Ethereum, and Tron) wallet. Available on Android (APK only for now) and iOS.
