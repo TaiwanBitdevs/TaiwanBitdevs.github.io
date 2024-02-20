@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "Socratic Seminar 17: Happy Lunar New Year - Wood Dragon Year"
-meetup: https://www.meetup.com/taiwan-bitdevs/events/298557984/
+meetup: https://www.meetup.com/taiwan-bitdevs/events/299203425/
 ---
 
 ## Announcements
