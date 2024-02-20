@@ -30,6 +30,17 @@ Note: These are all made possible with Taiwanese exports (ASICs, nodes, networki
 [Bitcoin Magazine](https://bitcoinmagazine.com/check-your-financial-privilege/stranded-bitcoin-saving-wasted-energy-in-africa)
 [BTCZH.tw](https://btczh.tw/posts/7b7d5755)
 
+
+### Coinbase has removed support for native Bitcoin payments on Coinbase Commerce claiming it was too big of a challenge for the company.
+
+Delivering these same capabilities on the Bitcoin blockchain without smart contracts and stablecoins was challenging & we therefore made the difficult decision to remove native Bitcoin & other UTXO support," she added.
+
+Coinbase Commerce now no longer receives Bitcoin from non-Coinbase users
+
+Note: To date Coinbase still has not implemented lightning
+
+[Article](https://www.nobsbitcoin.com/coinbase-commerce-merchant-payment-processing-platform-no-longer-supports-bitcoin/)
+
 ### Elizabeth Warren Trolled Into Honoring Satoshi Nakamoto on 15th Bitcoin's Launch Anniversary
 
 Senator Elizabeth Warren honored Satoshi Nakamoto for the 15th anniversary of the network’s launch with a commemorative flag flown over the United States Capitol, although the service is available to anyone willing to pay a fee.
@@ -39,13 +50,14 @@ US regulators for the first time approved exchange-traded funds that invest dire
 [Article](https://bitcoinmagazine.com/culture/elizabeth-warren-pivots-on-bitcoin-honors-nakamoto-with-flag-over-capitol-)
 
 
-### Blackrock ETF Bitcoin Address found?
+### Bitwise's Bitcoin Spot ETF Addresses Updated to Native SegWit P2WPKH
 
+"Investors will continue to be able to verify BITB’s holdings transparently on-chain, a unique capability that’s fundamental to the bitcoin blockchain. All are listed at http://bitbetf.com."
+
+Bitwise is one of two Bitcoin spot ETF providers that's allocating a portion (10%) of its ETF proceeds to support open source Bitcoin development (no strings attached). Late in January, it became the first Bitcoin spot ETF to publicly disclose its bitcoin holding addresses.
 It didn't take long. Just two days after BlackRock and other bitcoin spot ETFs began trading, we can reveal at least one on-chain address that belongs to BlackRock.
 
-The address has 227.90249795 BTC, funded on January 5th, corresponding fully to BlackRock's own prospectus that they bought that many BTC on that day.
-
-[article](https://www.trustnodes.com/2024/01/14/revealed-the-blackrock-bitcoin-address-is-identified)
+[twitter announcement](https://twitter.com/BitwiseInvest/status/1757813223536103568)
 
 ### Aqua Wallet - Lightning - Liquid Wallet
 
