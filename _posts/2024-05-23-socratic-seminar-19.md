@@ -8,7 +8,9 @@ meetup: https://www.meetup.com/taiwan-bitdevs/events/301137898
 ## Announcements
 Welcome again Bitdevs Taiwan
 
-Our nineteenth Socratic Seminar event will be held at our typical location 9 LiShui St. Da'An Dist. Taipei.
+We are at a new location this month!
+
+Our nineteenth Socratic Seminar event will be held at No. 563, Section 4, Zhongxiao E Rd, 新仁里 · Xinyi District
 
 We will start the socratic seminar discussion with general introductions and follow with discussion on the latest bitcoin developents and news.
 
