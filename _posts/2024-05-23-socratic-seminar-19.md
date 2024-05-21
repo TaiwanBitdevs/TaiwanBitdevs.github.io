@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "Socratic Seminar 19: everybody wanna be demon 'til they get chipped by a throwaway"
-meetup: https://www.meetup.com/taiwan-bitdevs/events/299203425/
+meetup: https://www.meetup.com/taiwan-bitdevs/events/301137898
 ---
 
 ## Announcements
