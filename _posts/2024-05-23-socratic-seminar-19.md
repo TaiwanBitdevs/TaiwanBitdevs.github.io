@@ -166,11 +166,15 @@ Attack Scenarios
 [nobsbitcoin article](https://www.nobsbitcoin.com/scam-bitcoin-wallets-apple/  )
 [Electrum Tips](https://electrum.readthedocs.io/en/latest/malware.htm)
 
-### Blitz Wallet Beta available for testing
+### Cheyenne crypto mine with Chinese origins ordered to divest
 
-Self-custodial Lightning Wallet built off of Blockstream Greenlight and Breez SDK, 100 spots for iOS and APK available for Android
+In October, The New York Times published an article detailing some of the security concerns around a Cheyenne-based crypto-mining operation with Chinese origins located within one mile of F.E. Warren Air Force Base.
 
-[Link](https://blitz-wallet.com/)
+On Monday, The White House released a statement ordering the sale of land to the company be reversed, citing a national security risk.
+
+The purchasers acquired the land from Cheyenne LEADS in June 2022, and then made improvements to allow for specialized cryptocurrency mining operations. The land is in close proximity to F.E. Warren, a strategic missile base and home to Minuteman III intercontinental ballistic missiles.droid
+
+[Link](https://www.wyomingnews.com/rocketminer/news/state/cheyenne-crypto-mine-with-chinese-origins-ordered-to-divest/article_2f8613b2-13b7-11ef-ab33-9ba1a7d84a96.html)
 
 ### El Salvador's Chivo Wallet Source Code & VPN Access Leaked
 
