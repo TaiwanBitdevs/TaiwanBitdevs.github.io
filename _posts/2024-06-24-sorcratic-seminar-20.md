@@ -66,6 +66,13 @@ This issue announces an upcoming disclosure of Bitcoin Core vulnerabilities, and
 [Ava Chow post](https://x.com/achow101/status/1799972733092294814)
 [Newsletter](https://bitcoinops.org/en/newsletters/2024/06/07/)
 
+### Electrum Plugin for Joinstr Tutorial
+
+In this tutorial I will share the steps to use electrum plugin for joinstr on Ubuntu. First step is to get the latest version of electrum. Run the below commands so that electrum can be used:
+
+[tutorial](https://uncensoredtech.substack.com/p/tutorial-electrum-plugin-for-joinstr?ref=nobsbitcoin.com)
+[article](https://www.nobsbitcoin.com/how-to-use-electrum-plugin-for-joinstr/)
+
 ### Alexey Pertsev - Tornado Cash case (REVIEW)
 
 Dutch court found Tornado Cash developer Alexey Pertsev guilty of money laundering and sentenced him to 64 months in prison. Pertsev's legal team has 14 days to appeal the decision.
