@@ -2,17 +2,15 @@
 layout: post
 type: socratic
 title: "Socratic Seminar 22: Trade-offs and Catch 22s"
-meetup: https://www.meetup.com/taiwan-bitdevs/events/302650155/
----
+meetup: https://www.meetup.com/taiwan-bitdevs/events/304061485
 
 ## Announcements
-Welcome again Bitdevs Taiwan
 
-We are hosting event with TempoX, thanks to Louis and Evan!
+Our 22nd Socratic Seminar will be co-hosted with TempoX! Thank you to TempoX for offering the space, food, and their willingness to promote Bitcoin development and awareness. Hopefully, we will be able to showcase the importance of Bitcoin, and the problems it solves, to a wider audience.
 
-Location information TBD
+Location : [Tempo House](https://maps.app.goo.gl/yXMwGAFzV3cUsT1j9)
 
-We will start the socratic seminar discussion with general introductions and follow with discussion on the latest bitcoin developents and news.
+We will start the Socratic Seminar with general introductions and follow with discussion on the latest bitcoin developments and news.
 
 Learn about bitcoin development. Share, debate, and discuss trade offs in progress. We discuss a variety of developments, from industry updates and press releases, pull requests in popular git repositories (e.g. Bitcoin Core, lnd, c-lightning, rust-bitcoin, Joinmarket, WasabiWallet), research papers, technical blog posts, IRC logs, network monitors and more. Please add to the discussion topics on GitHub. We'd love to hear from you. After the event the we socialize over food and drinks.
 
