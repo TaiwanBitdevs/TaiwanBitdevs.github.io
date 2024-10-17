@@ -21,6 +21,19 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 
 ## Discussion Topics
 
+### Bitcoin Mempool Upgrades
+
+Recently, there has been some really cool mempool P2P upgrades to Bitcoin that are worth talking about.
+* Package relay for 1P1C (one parent one child).
+* TRUC (topologically restricted until confirmation) transaction relay.
+* Package RBF.
+* Sibling eviction.
+* A standard P2A (pay-to-anchor) output script type.
+
+> Gregory Sanders has written a [guide](https://bitcoinops.org/en/bitcoin-core-28-wallet-integration-guide/) for Optech aimed at developers of wallets and other software that uses Bitcoin Core to create or broadcast transactions. The guide walks through the use of several of the features and describes how the features can be useful for multiple protocols, including simple payments and RBF fee bumping, LN commitments and [HTLCs](https://bitcoinops.org/en/topics/htlc/), [Ark](https://bitcoinops.org/en/topics/ark/), and [LN splicing](https://bitcoinops.org/en/topics/splicing/).
+
+[Optech Newsletter](https://bitcoinops.org/en/newsletters/2024/10/11/#guide-for-wallets-employing-bitcoin-core-28-0)
+
 ### Bitcoin Core v28.0: Testnet4, Full RBF by Default & More
 
 * Bitcoin Core v28 supports testnet4 and introduces a variety of P2P/mempool policy changes, including opportunistic 1-parent-1-child (1p1c) package relay, default relay of opt-in TRUC and pay-to-anchor transactions, limited package RBF relay, and full-RBF is now on by default.
