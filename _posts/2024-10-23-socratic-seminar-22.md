@@ -26,10 +26,8 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 ### Bitcoin Core v28.0: Testnet4, Full RBF by Default & More
 
 * Bitcoin Core v28 supports testnet4 and introduces a variety of P2P/mempool policy changes, including opportunistic 1-parent-1-child (1p1c) package relay, default relay of opt-in TRUC and pay-to-anchor transactions, limited package RBF relay, and full-RBF is now on by default.
-
 * It also adds default parameters for assumeUTXO, enabling the loadtxoutset RPC to use a UTXO set downloaded outside the Bitcoin network (etc. via torrents).
 * The update also packages many other new features, updated RPCs, fixes, stability and performance improvements, as well as updated translations.
-
 * AssumeUTXO available on mainnet. AssumeUTXO mainnet parameters have been added for height 840,000. The loadtxoutset RPC can now be used on mainnet with the matching UTXO set from that height.
 * New Windows Data Directory. The default Windows data directory has been moved to C:\Users\Username\AppData\Local\Bitcoin. If old directory is present, the client will continue to use it for backwards compatibility.
 * JSON-RPC 2.0 Support. The JSON-RPC server now recognizes JSON-RPC 2.0 requests and responds with strict adherence to the specification.
