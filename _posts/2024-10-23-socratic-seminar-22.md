@@ -91,12 +91,14 @@ In this tutorial I will share the steps to use electrum plugin for joinstr on Ub
 [tutorial](https://uncensoredtech.substack.com/p/tutorial-electrum-plugin-for-joinstr?ref=nobsbitcoin.com)
 [article](https://www.nobsbitcoin.com/how-to-use-electrum-plugin-for-joinstr/)
 
-### BDK v1.0.0-beta1 released
+### BDK `v1.0.0-beta.5` Released
 
-congrats to Evan!
+Here is the summary of the latest and previous beta releases.
 
-[Case Documents (Dutch)](https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBOBR%3A2024%3A2069&ref=nobsbitcoin.com)
-[News Article](https://www.dlnews.com/articles/regulation/tornado-cash-dev-alexey-pertsev-guilty-of-money-laundering/?ref=nobsbitcoin.com)
+* `beta.1`: This release includes the first beta version of `bdk_wallet` with a stable 1.0.0 API. The changes in this version include reworked wallet persistence, changeset, and construction, optional user provided RNG, custom tx sorting, and use of merkle proofs in bdk_electrum.
+* `beta.2`: The primary user facing changes are re-enabling single descriptor wallets and renaming LoadParams methods to be more explict. Wallet persistence was also simplified and blockchain clients no longer depend on bdk_chain.
+* `beta.{3|4}`: Fixed transaction creation to not skip unused addresses, added function for sorting wallet transactions and option to change default BNB fallback coin selection. We moved the bdk_hwi crate functionality to the rust-hwi repo.
+* `beta.5`: This release changes bdk_wallet transaction creation to enable RBF by default, it also updates the bdk_esplora client to retry server requests that fail due to rate limiting. The bdk_electrum crate now also offers a use-openssl feature.
 
 ### Proton Wallet by Proton Mail
 
