@@ -3,6 +3,7 @@ layout: post
 type: socratic
 title: "Socratic Seminar 22: Trade-offs and Catch 22s"
 meetup: https://www.meetup.com/taiwan-bitdevs/events/304061485
+---
 
 ## Announcements
 
