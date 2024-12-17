@@ -22,6 +22,52 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 
 ## Discussion Topics
 
+### Czech Republic Eliminates Bitcoin Capital Gains Tax for Long-term Holdings
+
+The Czech Republic has enacted a law that exempts Bitcoin holdings held for more than three years from capital gains tax. This legislation received unanimous approval from the nation's parliament on December 6 and is scheduled to take effect on January 1, 2025.
+
+[article](https://www.theblock.co/post/329788/czech-republic-scraps-capital-gains-tax-on-crypto-held-for-over-3-years)
+
+### WabiSabi Vulnerability Allows Malicious Coordinators to Deanonymize Coinjoin Users
+
+A vulnerability in the WabiSabi protocol allows malicious coordinators to deanonymize users' coins and link inputs to outputs, compromising the privacy of coinjoin participants. Users are urged to update their instances immediately.
+
+The affected versions of the WabiSabi protocol have a vulnerability due to inadequate client-side validation of credential issuers. It allows malicious coordinators to use multiple issuers to differentiate inputs from outputs, trace input ownership, and break the anonymity set of Bitcoin's coinjoin process, compromising user privacy.
+
+[disclosure](https://github.com/GingerPrivacy/GingerWallet/discussions/116)
+[artcile](https://www.therage.co/vulnerability-wabisabi-coinjoin/)
+
+### Vulnerability allowing theft from LN channels with miner assistance
+
+David Harding announced to Delving Bitcoin a vulnerability he had responsibly disclosed earlier in the year. Old versions of Eclair, LDK, and LND with default settings allowed the party who opened a channel to steal up to 98% of channel value. Core Lightning remains affected if the non-default --ignore-fee-limits configuration option is used; this option’s documentation already indicates it is dangerous.
+
+The announcement also described two less severe variants of the vulnerability. All LN implementations listed above attempt to mitigate those additional risks, but a complete solution awaits additional work on package relay, channel upgrades, and related projects.
+
+The vulnerability takes advantage of the LN protocol allowing an old channel state to commit to more onchain fees than the fee-paying party controls in the latest state. For example, in a state where Mallory controls 99% of the channel balance, she dedicates 98% of the overall balance to endogenous fees. She then creates a new state that pays only minimal fees and forwards 99% of the channel balance to Bob’s side. By personally mining the old state that pays 98% to fees, she can capture those fees for herself—reducing the maximum value Bob can receive onchain from his expected 99% to an actual 2%. Mallory can use this method to simultaneously steal from about 3,000 channels per block (with each channel potentially controlled by a different victim), allowing theft of about $3 million USD per block if the average channel value is about $1,000 USD.
+
+note: from version Eclair v0.10.0 (29 Feb 2024), LDK 0.0.123 (8 May 2024), LND 0.18.3-beta 1 (11 Sept 2024)
+
+[disclosure](https://delvingbitcoin.org/t/disclosure-irrevocable-fees-stealing-from-ln-using-revoked-commitment-transactions/1314)
+
+
+### Eclair v0.11.0: Official Bolt 12 Support, Splicing, Liquidity Ads & On-The-Fly Funding Prototypes
+
+Eclair (French for Lightning) is a Scala implementation of the Lightning Network developed by ACINQ.
+
+* Official support for Bolt 12. This release contains full support for Bolt 12 payments.
+* Splicing prototype for private channels. Improved ACINQ implementation of splicing by relying on the official quiescence feature and adding RBF support.
+* Liquidity ads prototype. Liquidity ads empower nodes to sell their liquidity in a trustless and decentralized way. Each node advertises the rates at which they are willing to sell their liquidity, allowing buyers to connect with sellers offering favorable rates.
+* Updated minimal version of Bitcoin Core to v27.2. The latest version of Eclair requires Bitcoin Core 27.2, which introduces CoinGrinder, a new coin selection algorithm that reduces on-chain transaction costs when feerates are high. Newer Bitcoin Core versions may be used but haven't been thoroughly tested.
+
+[announcement](https://xcancel.com/acinq_co/status/1864242997396644034)
+
+### Bitcoin ATM Operator Byte Federal Reports Data Breach Affecting 58,000 Users
+U.S.-based Bitcoin ATM operator Byte Federal has reported a data breach that may have compromised the personal information of approximately 58,000 customers.
+
+"Customer personal information that was subject to the attempt at unauthorized access includes name, birthdate, address, phone number, email address, government-issued ID, social security number, transaction activity, and photographs of users," said the company.
+
+[breach announcement](https://www.bytefederal.com/files/Consumer%20Breach%20Notification%20Letter.pdf)
+
 ### Bitcoin Mempool Upgrades
 
 Recently, there has been some really cool mempool P2P upgrades to Bitcoin that are worth talking about.
@@ -64,17 +110,26 @@ Similar to Stratum V2, DATUM is designed to decentralize block construction by e
 
 [Press Release](https://newsdirect.com/news/ocean-restoring-bitcoin-mining-decentralization-177177279)
 
-### Bitcoin Core Discloses Three Vulnerabilities Affecting Versions Before v25.0
+### Ashigaru v1.1.0: Removed DNS Dependencies & UI Improvements
 
-Disclosed vulnerabilities include a blocktxn remote node crash (CVE-2024-35202), an issue with mutated blocks hindering block propagation, and a node communication issue due to inv-to-send sets growing too large.
+Ashigaru is a self-custodial, open-source and secure mobile Bitcoin wallet that is private by design. It has been forked and build upon Samourai Wallet Source Code. Available on Android.
 
-Disclosed vulnerabilities include:
+"The Ashigaru Open Source Project is pleased to announce the update of Ashigaru mobile to v1.1.0. Thank you to those who have used the wallet and provided valuable feedback, some of which has been addressed within this update," announced the project.
+This release implements automatic updates of Tor onion services, removing all dependencies and reliance on DNS from the app, overhauls Settings screen user interface, introduces new transaction alerts, and more
 
-* CVE-2024-35202. This is a high severity issue that allows attackers to crash Bitcoin Core nodes remotely by triggering an assertion in the blocktxn message handling logic. The vulnerability was discovered by Niklas Gögge and fixed in Bitcoin Core v25.0.
-* Hindered block propagation due to mutated blocks. This is a medium severity issue that allows a peer to clear the block download state of other peers by sending unrequested, mutated blocks. It was fixed in #27608 by ensuring that a peer can only affect its own block download state, not the download states of other peers.
-* DoS due to inv-to-send sets growing too large. It's a medium severity issue where excessively large m_tx_inventory_to_send sets could disrupt node communication by slowing inventory message construction.
+note: although ashigaru is open source from the remains of the last version of Samourai wallet, ashigaru uses a pre-compilied bitcoinj library
 
-[Announcement](https://groups.google.com/g/bitcoindev/c/WeSDeV8YOSA)
+[blogpost](https://ashigaru.rs/news/mobile-wallet-v1-1-0/)
+[repo](http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Mobile/releases/tag/v1.1.0)
+
+### Samourai Wallet & Tornado Cash Prosecutor Damian Williams to Step Down in December
+
+Damian Williams, the United States Attorney for the Southern District of New York and the district's chief federal law enforcement officer, announced his resignation. He will step down from his position effective at 11:59 p.m. on December 13, 2024.
+
+Damian Williams assumed office on October 10, 2021, appointed by President Joe Biden. During his three-year tenure, Williams has overseen many high-profile cases, including the convictions of FTX's Sam Bankman-Fried and Jeffrey Epstein's accomplice Ghislaine Maxwell, the prosecutions of New York City Mayor Eric Adams and rap artist Sean "Diddy" Combs, as well as the developers of Tornado Cash and Samourai Wallet privacy tools.
+Edward Y. Kim, the current Deputy United States Attorney, will take over as Acting United States Attorney when he departs. Additionally, President-elect Trump has announced his intention to nominate Jay Clayton, former head of the Securities and Exchange Commission, to lead the office.
+
+[press release](https://www.justice.gov/usao-sdny/pr/us-attorney-damian-williams-announces-anticipated-resignation-southern-district-new)
 
 ### Bitmain Launches the ANTMINER S21+ Series
 
@@ -86,15 +141,16 @@ At the Bitcoin Amsterdam 2024 conference, Bitcoin miner manufacturer Bitmain ann
 
 [Press Release](https://www.bitmain.com/news-detail/bitmain-launches-the-antminer-s21-series-358)
 
-### Italy Plans to Raise Bitcoin Capital Gains Tax from 26% to 42%
+### RoboSats v0.7.3-alpha: LNP2PBot Orders & Nostr Order Books on Android
 
-Italy intends to increase the capital gains tax on Bitcoin from 26% to 42% as part of a strategy to fund costly election commitments while reducing the budget deficit.
+RoboSats is a simple and private way to exchange bitcoin. It simplifies the peer-to-peer user experience and uses lightning hold invoices to minimize custody and trust requirements while helping users stick to best privacy practices. Available on the web, Android, Windows, MacOS, and Linux.
 
-* On Wednesday, Italy unveiled its draft budgetary plan (DBP), which outlined new revenue-raising strategies.
-* The proposal to hike bitcoin taxes accompanies the country's aim to generate 0.2% of its gross domestic product (GDP), translating to approximately 4 billion euros ($4.35 billion) by 2025.
-* The plan also includes raising funds through new tax regulations targeting banks, insurance products, gaming business licenses, and adjustments to the web tax.
+RoboSats v0.7.3 is now available! This release introduces the ability to fetch orders from the LNP2PBot platform when the user enables Nostr orders in settings, thanks to shared Nostr order books.
+"Robosats and LNP2PBot are two separate platforms for P2P Bitcoin exchange. Both are now publishing their public orders to Nostr, so we can now display their orders in our client. This brings a lot of benefits. One of the most direct is that Robosats users will now have more info when comparing premiums, which will reduce the arbitrage between platforms and increase the general liquidity," said KoalaSat.
+Additionally, Android app users now have the option to enable Nostr orders in settings, along with a few other fixes.
 
-[Reuters](https://www.reuters.com/markets/europe/italy-stiffens-terms-digital-services-tax-2025-budget-2024-10-16/#:~:text=Italy%20will%20also%20raise%20a,from%2026%25%2C%20Leo%20added)
+[announcement](https://njump.me/nevent1qqsfd8gf7c7mnta8s7pdre8ar3rmkdj7qgz3l7suetszmheq7l2cwtcpzemhxue69uhhyetvv9ujumn0wd68ytnzv9hxgqgdwaehxw309ahx7uewd3hkcq3qv3tgrwwsv7c6xckyhm5dmluc05jxd4yeqhpxew87chn0kua0tjzqeqvasa)
+[repo](https://github.com/RoboSats/robosats/releases/tag/v0.7.3-alpha)
 
 ### Electrum Plugin for Joinstr Tutorial
 
@@ -103,25 +159,9 @@ In this tutorial I will share the steps to use electrum plugin for joinstr on Ub
 [tutorial](https://uncensoredtech.substack.com/p/tutorial-electrum-plugin-for-joinstr?ref=nobsbitcoin.com)
 [article](https://www.nobsbitcoin.com/how-to-use-electrum-plugin-for-joinstr/)
 
-### BDK `v1.0.0-beta.5` Released
+## Discussion of softfork proposals
 
-Here is the summary of the latest and previous beta releases.
-
-* `beta.1`: This release includes the first beta version of `bdk_wallet` with a stable 1.0.0 API. The changes in this version include reworked wallet persistence, changeset, and construction, optional user provided RNG, custom tx sorting, and use of merkle proofs in bdk_electrum.
-* `beta.2`: The primary user facing changes are re-enabling single descriptor wallets and renaming LoadParams methods to be more explict. Wallet persistence was also simplified and blockchain clients no longer depend on bdk_chain.
-* `beta.{3|4}`: Fixed transaction creation to not skip unused addresses, added function for sorting wallet transactions and option to change default BNB fallback coin selection. We moved the bdk_hwi crate functionality to the rust-hwi repo.
-* `beta.5`: This release changes bdk_wallet transaction creation to enable RBF by default, it also updates the bdk_esplora client to retry server requests that fail due to rate limiting. The bdk_electrum crate now also offers a use-openssl feature.
-
-### Proton Wallet by Proton Mail
-
-Proton, the privacy-focused Swiss technology company, is launching Proton Wallet, an open-source, E2E-encrypted, and self-custodial Bitcoin wallet.
-
-The product is currently available to Proton Visionary and Lifetime plan users. Other users can sign up to an early waitlist or receive an invite from an active Proton Wallet user.
-
-[Website](https://proton.me/wallet)
-
-[Announcement](https://proton.me/blog/proton-wallet-launch)
-[github](https://github.com/protonwallet/)
+(placeholder for discussion over drama regarding opcodes)
 
 ### HRF Bitcoin Development Fund Grants 10 BTC to 13 Bitcoin Projects
 
@@ -144,65 +184,6 @@ These are the projects receiving financial aid from the HRF:
 * Summer of Bitcoin
 
 [Announcement](https://hrf.org/hrf-bitcoin-development-fund-grants-1-billion-satoshis-to-14-projects-worldwide/)
-
-### Utreexod Beta Is Now Available for General Public Testing
-
-utreexod is a full node bitcoin implementation with support for utreexo accumulators. It enables immediate node bootstrap by having the UTXO state hardcoded into the codebase, uses a tiny amount of memory, and has a low disk i/o.
-
-Key features:
-- Implementation of efficient Utreexo accumulators with an improved deletionn algorithm from the Utreexo paper.
-- Efficient P2P transaction relay with support for caching utreexo proofs for mempool transactions.
-- Quick sync to the tip of the blockchain with AssumeUtreexo.
-- Built in wallet support (with BDK wallet).
-- Electrum personal server support for usage with other wallets.
-
-utreexo proponent Calvin Kim attended Taipei Bitcoin Tech Summit 2023 with Taiwan BitDevs
-
-[announcement](https://groups.google.com/g/bitcoindev/c/5GyV9af9lv4?ref=nobsbitcoin.com)
-[github](https://github.com/utreexo/utreexod/releases?ref=nobsbitcoin.com)
-
-### A Bitaxe Has Mined Block 853742
-
-A solo Bitcoin miner with 3 TH/s has mined block 853742, overcoming odds of 1 in 1.2 million and earning 3.192 BTC (approximately $200,000).
-1 in 3,500 year odds!
-
-[nobsbitcoin article](https://www.nobsbitcoin.com/a-bitaxe-has-found-a-block/)
-
-### OCEAN Pool Integrates BOLT12 Lightning Payouts
-
-“Using BOLT12 also allows us to prove to the world that a payment was made, the size of the payment, the node to which it was paid, and that it was paid by us. This means we can continue to offer fully transparent and verifiable pooled mining while no longer being restricted by the base layer.”
-
-“Pools traditionally have held miners’ bitcoins like a bank, while on-chain Bitcoin transactions get increasingly expensive as the demand for Bitcoin rises. For small miners, the problem is exacerbated since in some cases the cost of the transaction fee is higher than the reward that they earn. This is unsustainable because it creates lock-in to custodial pools. OCEAN helps overcome this risk using Lightning,” OCEAN co-founder Luke Dashjr said.
-
-[Announcement](https://njump.me/nevent1qqs8sz359u7ysd8hw39v99hlxl5zs7mzsrrw5rwpsctm0ufart2g0ngpp4mhxue69uhkummn9ekx7mqppamhxue69uhkummnw3ezumt0d5q3gamnwvaz7tmwdaehgu3wdau8gu3wv3jhvq3qqtvl2em0llpnnllffhat8zltugwwz97x79gfmxfz4qk52n6zpk3qn2uecg)
-[Press Release](https://newsdirect.com/news/ocean-innovates-bitcoin-miners-offered-first-ever-lightning-payouts-using-bolt12-946331135)
-[Documentation](https://ocean.xyz/docs/lightning?ref=nobsbitcoin.com)]
-
-### AntPool & Bitmain Acting as 'a Pool of Pools' - Report
-
-"Looking at the merkle branches that mining pools send to miners as part of stratum jobs, it's clear that the BTCcom pool, Binance pool, Poolin, EMCD, Rawpool, and possibly Braiins* have exactly the same template and custom transaction prioritization as AntPool," analyst 0xB10C recently shared in a post.
-
-note: pooled mining is surprisingly something that wasn't unexpected
-
-[full post](https://nostr.com/note1qckcs4y67eyaawad96j7mxevucgygsfwxg42cvlrs22mxptrg05qtv0jz3)
-
-### RFK Speech at Bicoin Conference 2024
-
-Robert F. Kennedy Jr. delivers a groundbreaking speech Bitcoin 2024, outlining his vision for integrating Bitcoin into America's economic and national security strategies. As an independent presidential candidate, RFK Jr. proposes bold initiatives including making the US government a major Bitcoin holder, eliminating taxes on Bitcoin transactions, and using Bitcoin mining to incentivize green energy production.
-
-[youtube](https://www.youtube.com/watch?v=ssYCRVpzcxc)
-[中文翻譯](https://btczh.tw/posts/a8961609)
-
-### Bitcoin Optech #306: Disclosure of Vulnerabilities Affecting Older Versions of Bitcoin Core
-
-This issue announces an upcoming disclosure of Bitcoin Core vulnerabilities, and describes: a draft BIP for testnet4, functional encryption covenants, proposed updates to 64-bit arithmetic in Bitcoin Script, looks at OP_CAT script to validate proof of work, as well as proposed update to BIP21.
-
-"Several members of the Bitcoin Core project discussed on IRC a proposed policy for disclosing vulnerabilities that affected older versions of Bitcoin Core..."
-"After this policy has a chance to be further discussed, it is the intention of the project to begin disclosing vulnerabilities affecting Bitcoin Core 24.x and below. It is strongly recommended that all users and administrators upgrade to Bitcoin Core 25.0 or above within the next two weeks."
-
-[Ava Chow post](https://x.com/achow101/status/1799972733092294814)
-[Newsletter](https://bitcoinops.org/en/newsletters/2024/06/07/)
-
 
 ### Scam Wallets - And how to spot them
 
@@ -228,27 +209,6 @@ The purchasers acquired the land from Cheyenne LEADS in June 2022, and then made
 
 [Link](https://www.wyomingnews.com/rocketminer/news/state/cheyenne-crypto-mine-with-chinese-origins-ordered-to-divest/article_2f8613b2-13b7-11ef-ab33-9ba1a7d84a96.html)
 
-### Mutiny Wallet to shut down
-
-Mutiny Wallet to shut down EOY
-
-[blog post](https://blog.mutinywallet.com/mutiny-wallet-is-shutting-down/)
-[nostr post](https://primal.net/e/note1mnyfl9hjck35mw67hd659j6a2gxltmyhzq684lm99xnf6wzyeunsh33fy8)
-
-### Robosats Mobile App
-
-The RoboSats Federation is a set of rules that allows multiple RoboSats instances to work together under a unified client app. This federated client app enables users to seamlessly interact with any coordinator, track the coordinator reputation, verify transparently devFund donations, and more.g the current cost-less-impairment accounting model for many entities.
-
-[nobsbitcoin article](https://www.nobsbitcoin.com/robosats-v0-6-0-pre-release/)
-[Announcement](https://learn.robosats.com/robosats/update/pre-release-robosats-decentralized/)
-
-### BitVM 8-bit PC
-
-"It's true, you can write bitcoin smart contracts in Assembly now instead of learning boolean logic circuits," wrote @Super Testnet.
-Someone also wrote a multiplication function for this virtual CPU
-
-[Link](https://supertestnet.github.io/8bit-cpu-for-bitvm/)
-[BitVM Calculator](https://x.com/super_testnet/status/1732493052185391160?s=20)
 
 ### Strike opens up for Taiwan Users!
 
@@ -258,24 +218,6 @@ Strike currently has no banking relationships in Taiwan
 
 [link](https://www.nobsbitcoin.com/strike-announced-buy-bitcoin-globally-feature/)
 
-
-### Discussion on CVE-2023-50428 / Vulnerability in Bitcoin Core and Bitcoin Knots (Remains Open!)
-
-Why this is a CVE - the software which creates these OP_IF/FALSE/PUSH transactions circumvents the existing filters, and there is no such mechanism is in place to to recognize these transactions as non-standard (there are no configuration options to address this).
-
-datacarrier and datacarrier size parameters in bitcoin.conf does not include inscription transactions
-
-Companies and individuals maintain their own versions of Bitcoin software and should be monitoring vulnerabilities across their stack. Ultimately everyone can decide whether or not a CVE applies to them, whether or not vulnerability should be classified as such is not the issue, it is a situation to address.
-
-There is a patch available as commit #28408, the patch does not censor ordinals, it simply subjects an expanded set of transactions which inscribe data onto the blockchain to go through the same filters as before. The miners aligned with the patch are forgoing mining fees to run this filter.
-
-Nodes which apply the patch have the drawbacks of fee-estimations being off and slower block validation times.
-
-Note: demonstration available on how to apply the patch (homework!)
-
-[CVE-2023-50428](https://nvd.nist.gov/vuln/detail/CVE-2023-50428)
-
-[Pull Request/Patch](https://github.com/bitcoin/bitcoin/pull/28408/commits)
 
 ### New on Geyser: Bitcoin Explorama, BitFables, Smart Child Kenya & More
 
