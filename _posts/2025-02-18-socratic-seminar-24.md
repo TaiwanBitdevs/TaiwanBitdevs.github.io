@@ -27,12 +27,17 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 Ross Ulbricht received a full pardon and was released from prison on January 21st, 2025.  Here are some links to discuss Ross Ulbricht and Silk Road to celebrate his release
 
 [Bitcoin Equals Freedom by Ross Ulbricht](https://freeross.org/bitcoin-equals-freedom/)
+
 [DPR Book Club](https://www.goodreads.com/list/show/160982.DPR_Book_Club)
+
 [Bitcoin 2021 Ross Ulbricht Interview](https://www.youtube.com/watch?v=3V_SkLxgQjQ)
 
 [Silk Road timeline](https://antilop.cc/sr/)
+
 [Screencaps](https://gwern.net/silk-road)
+
 [Wired/Gawker Article (2011)](https://www.wired.com/2011/06/silkroad-2/)
+
 [TFTC - John Doe (2019](https://anchor.fm/s/558f520/podcast/play/4827599/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-8-24%2F24827554-44100-2-267e7981cafe6.mp3)
 
 ### LNBits v1.0 incoming
@@ -49,6 +54,7 @@ Instant wallet for LN demonstrations
 LNbits can run on top of almost all Lightning funding sources.
 
 [nostr post - Ben Arc](https://primal.net/e/note1spj35utvql6wg8huv9hnh86fws2x7f9yul42tjn87eex5rkl44xsc75hnu)
+
 [commit visualization](https://youtu.be/LCPt4bkHT7g)
 
 ### Czech Republic Eliminates Bitcoin Capital Gains Tax for Long-term Holdings
@@ -65,6 +71,7 @@ This release also includes important updates to bdk_electrum, which now has a ne
 * Check out the project's roadmap [here](https://github.com/orgs/bitcoindevkit/projects/14).
 
 [announcement](https://x.com/bitcoindevkit/status/1887203092950884603)
+
 [github](https://github.com/bitcoindevkit/bdk/releases/tag/wallet-1.1.0)
 
 ### Tether, Lightning Labs Announce USDT on Lightning Network
@@ -72,6 +79,7 @@ This release also includes important updates to bdk_electrum, which now has a ne
 Tether has announced the integration of USDT into Bitcoin’s ecosystem, encompassing both its base layer and the Lightning Network. This integration is supported by the Taproot Assets protocol, developed by Lightning Labs.
 
 [Tether Blog Post](https://tether.io/news/tether-brings-usdt-to-bitcoins-lightning-network-ushering-in-a-new-era-of-unstoppable-technology/)
+
 [Bitcoin Magazine](https://bitcoinmagazine.com/takes/tether-is-back-on-bitcoin-lightning-dominance-is-just-starting)
 
 ### US SEC Withdraws Controversial Accounting Guidance SAB 121 Days After Gary Gensler Leaves
@@ -85,7 +93,9 @@ In essence, banks can now hold and protect cryptocurrencies for their customers 
 * SAB 121 was seen as a significant obstacle in the Bitcoin and digital assets industry and was challenged by a Congressional Review Act resolution that passed both the House and Senate. However, it was vetoed by former President Joe Biden.
 
 [nobsbitcoin link](https://www.nobsbitcoin.com/us-sec-withdraws-controversial-accounting-guidance-sab-121-days-after-gary-gensler-leaves/)
+
 [SAB 122](https://www.sec.gov/rules-regulations/staff-guidance/staff-accounting-bulletins/staff-accounting-bulletin-122)
+
 [coindesk](https://www.coindesk.com/policy/2025/01/23/sec-withdraws-controversial-crypto-tax-accounting-bulletin)
 
 ### U.S. District Court Officially Reverses Sanctions on Tornado Cash Mixer
@@ -93,7 +103,9 @@ In essence, banks can now hold and protect cryptocurrencies for their customers 
 A U.S. District Court ordered the OFAC to remove addresses associated with Tornado Cash from its Specially Designated National and Blocked Persons (SDN) list, following an Appeals Court ruling that the Treasury Department exceeded its authority in sanctioning the crypto mixer.
 
 [nostr-L0la L33tz](https://primal.net/e/note17f6yc3js9znsxe993wn68vr8sgxxjtu7czlqnajlqv4lkl2tdh8q29hnem)
+
 [Court Filing](https://storage.courtlistener.com/recap/gov.uscourts.txwd.1211705/gov.uscourts.txwd.1211705.99.0.pdf)
+
 [The Block](https://www.theblock.co/post/336319/us-court-rules-against-tornado-cash-sanctions-torn-cryptocurrency-surges-140)
   
 ### WabiSabi Vulnerability Allows Malicious Coordinators to Deanonymize Coinjoin Users
@@ -103,6 +115,7 @@ A vulnerability in the WabiSabi protocol allows malicious coordinators to deanon
 The affected versions of the WabiSabi protocol have a vulnerability due to inadequate client-side validation of credential issuers. It allows malicious coordinators to use multiple issuers to differentiate inputs from outputs, trace input ownership, and break the anonymity set of Bitcoin's coinjoin process, compromising user privacy.
 
 [disclosure](https://github.com/GingerPrivacy/GingerWallet/discussions/116)
+
 [artcile](https://www.therage.co/vulnerability-wabisabi-coinjoin/)
 
 ### Vulnerability allowing theft from LN channels with miner assistance
