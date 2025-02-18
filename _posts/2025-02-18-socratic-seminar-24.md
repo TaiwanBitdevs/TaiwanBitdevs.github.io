@@ -35,12 +35,67 @@ Ross Ulbricht received a full pardon and was released from prison on January 21s
 [Wired/Gawker Article (2011)](https://www.wired.com/2011/06/silkroad-2/)
 [TFTC - John Doe (2019](https://anchor.fm/s/558f520/podcast/play/4827599/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-8-24%2F24827554-44100-2-267e7981cafe6.mp3)
 
+### LNBits v1.0 incoming
+
+After 5 years of open source development LNBits is coming now out of beta! LNBits is a project that helps users self-host custodial lightning wallets supporting most lightning implementations
+
+LNbits is a Python server that sits on top of any funding source. It can be used as:
+
+Accounts system to mitigate the risk of exposing applications to your full balance via unique API keys for each wallet
+Extendable platform for exploring Lightning network functionality via the LNbits extension framework
+Part of a development stack via LNbits API
+Fallback wallet for the LNURL scheme
+Instant wallet for LN demonstrations
+LNbits can run on top of almost all Lightning funding sources.
+
+[nostr post - Ben Arc](https://primal.net/e/note1spj35utvql6wg8huv9hnh86fws2x7f9yul42tjn87eex5rkl44xsc75hnu)
+[commit visualization](https://youtu.be/LCPt4bkHT7g)
+
 ### Czech Republic Eliminates Bitcoin Capital Gains Tax for Long-term Holdings
 
 The Czech Republic has enacted a law that exempts Bitcoin holdings held for more than three years from capital gains tax. This legislation received unanimous approval from the nation's parliament on December 6 and is scheduled to take effect on January 1, 2025.
 
 [article](https://www.theblock.co/post/329788/czech-republic-scraps-capital-gains-tax-on-crypto-held-for-over-3-years)
 
+### BDK Wallet v1.1.0: v2 Transactions in Tx Builder by Default, Testnet4 Support
+
+* "The bdk_wallet v1.1.0 release is out! tx builder now defaults to version 2 transactions and we added support for testnet4. This is the first in our planned series of 1.x bi-monthly features releases," announced the project.
+This release also includes important updates to bdk_electrum, which now has a new Minimum Supported Rust Version (MSRV) of 1.75.0 to stay current with the latest security fixes.
+* Additionally, bdk_bitcoind_rpc introduces a new compact block filter module, along with various bug fixes and improvements.
+* Check out the project's roadmap [here](https://github.com/orgs/bitcoindevkit/projects/14).
+
+[announcement](https://x.com/bitcoindevkit/status/1887203092950884603)
+[github](https://github.com/bitcoindevkit/bdk/releases/tag/wallet-1.1.0)
+
+### Tether, Lightning Labs Announce USDT on Lightning Network
+
+Tether has announced the integration of USDT into Bitcoin’s ecosystem, encompassing both its base layer and the Lightning Network. This integration is supported by the Taproot Assets protocol, developed by Lightning Labs.
+
+[Tether Blog Post](https://tether.io/news/tether-brings-usdt-to-bitcoins-lightning-network-ushering-in-a-new-era-of-unstoppable-technology/)
+[Bitcoin Magazine](https://bitcoinmagazine.com/takes/tether-is-back-on-bitcoin-lightning-dominance-is-just-starting)
+
+### US SEC Withdraws Controversial Accounting Guidance SAB 121 Days After Gary Gensler Leaves
+
+The SEC issued Staff Accounting Bulletin (SAB) 122, which revokes the contentious SAB 121, and permits financial institutions that hold bitcoin and other digital assets for their customers to decide if the held digital assets should be reported as a liability.
+
+* The SAB 122 "rescinds the interpretive guidance" and directs firms to use Financial Accounting Standards Board rules or International Accounting Standards. This enables financial institutions to offer bitcoin and cryptocurrency services with fewer regulatory hurdles.
+* The rescinded guidance, SAB 121, was endorsed by former SEC Chair Gary Gensler, who claimed it would safeguard investors in the event of bankruptcies. Mark T. Uyeda has replaced Genlser as Acting Chairman of the agency.
+* SAB 121 mandated that cryptocurrency custody providers and exchanges account for customer holdings as both an asset and a liability on their balance sheets.
+In essence, banks can now hold and protect cryptocurrencies for their customers as they deem appropriate. Companies have the discretion to decide whether they need to acknowledge a liability for safeguarding risks and how to assess it.
+* SAB 121 was seen as a significant obstacle in the Bitcoin and digital assets industry and was challenged by a Congressional Review Act resolution that passed both the House and Senate. However, it was vetoed by former President Joe Biden.
+
+[nobsbitcoin link](https://www.nobsbitcoin.com/us-sec-withdraws-controversial-accounting-guidance-sab-121-days-after-gary-gensler-leaves/)
+[SAB 122](https://www.sec.gov/rules-regulations/staff-guidance/staff-accounting-bulletins/staff-accounting-bulletin-122)
+[coindesk](https://www.coindesk.com/policy/2025/01/23/sec-withdraws-controversial-crypto-tax-accounting-bulletin)
+
+### U.S. District Court Officially Reverses Sanctions on Tornado Cash Mixer
+
+A U.S. District Court ordered the OFAC to remove addresses associated with Tornado Cash from its Specially Designated National and Blocked Persons (SDN) list, following an Appeals Court ruling that the Treasury Department exceeded its authority in sanctioning the crypto mixer.
+
+[nostr-L0la L33tz](https://primal.net/e/note17f6yc3js9znsxe993wn68vr8sgxxjtu7czlqnajlqv4lkl2tdh8q29hnem)
+[Court Filing](https://storage.courtlistener.com/recap/gov.uscourts.txwd.1211705/gov.uscourts.txwd.1211705.99.0.pdf)
+[The Block](https://www.theblock.co/post/336319/us-court-rules-against-tornado-cash-sanctions-torn-cryptocurrency-surges-140)
+  
 ### WabiSabi Vulnerability Allows Malicious Coordinators to Deanonymize Coinjoin Users
 
 A vulnerability in the WabiSabi protocol allows malicious coordinators to deanonymize users' coins and link inputs to outputs, compromising the privacy of coinjoin participants. Users are urged to update their instances immediately.
