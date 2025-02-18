@@ -22,6 +22,19 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 
 ## Discussion Topics
 
+### Ross Ulbricht is Free!
+
+Ross Ulbricht received a full pardon and was released from prison on January 21st, 2025.  Here are some links to discuss Ross Ulbricht and Silk Road to celebrate his release
+
+[Bitcoin Equals Freedom by Ross Ulbricht](https://freeross.org/bitcoin-equals-freedom/)
+[DPR Book Club](https://www.goodreads.com/list/show/160982.DPR_Book_Club)
+[Bitcoin 2021 Ross Ulbricht Interview](https://www.youtube.com/watch?v=3V_SkLxgQjQ)
+
+[Silk Road timeline](https://antilop.cc/sr/)
+[Screencaps](https://gwern.net/silk-road)
+[Wired/Gawker Article (2011)](https://www.wired.com/2011/06/silkroad-2/)
+[TFTC - John Doe (2019](https://anchor.fm/s/558f520/podcast/play/4827599/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-8-24%2F24827554-44100-2-267e7981cafe6.mp3)
+
 ### Czech Republic Eliminates Bitcoin Capital Gains Tax for Long-term Holdings
 
 The Czech Republic has enacted a law that exempts Bitcoin holdings held for more than three years from capital gains tax. This legislation received unanimous approval from the nation's parliament on December 6 and is scheduled to take effect on January 1, 2025.
