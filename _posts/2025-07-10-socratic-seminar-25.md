@@ -42,8 +42,8 @@ Recently there has been a lot of drama concerning OP_Return at Bitcoin Core (pr 
 
 * History
     - Arbitrary data/Spam on Bitcoin and how it has historically been handled through policy
-        - Satoshi Dice
-        - White Paper Transaction
+        - What is Spam? Satoshi Dice Anecdote (policy.cpp explanation)
+        - What is arbitrary data? White Paper Transaction (baremultisig)
     - concerns over Mining Centralization
         - block templates
         - compact block filters
@@ -67,9 +67,9 @@ Recently there has been a lot of drama concerning OP_Return at Bitcoin Core (pr 
     - Now I'm here at BlockTempo
 
 * Misconceptions
-    - Spam != censorship
+    - Filters != censorship (validation.cpp explanation)
     - "Filters don't work"
-    - Fee estimation issues
+    - Fee estimation concerns
     - Block propagation
     - RBF as precedent
     - Mining Centralization
@@ -77,9 +77,9 @@ Recently there has been a lot of drama concerning OP_Return at Bitcoin Core (pr 
     - Core isn't* bitcoin, Knots isn't dangerous
 
 * Call to Action
-    - First time node runner -- Run Core
-    - Non-technical -- Run Knots
-    - Role of a node runner
+    - First time node runner -- Run Core. Why you should run a node
+    - Non-technical, still learning -- Run Knots
+    - Role of a node runner 
     - Study, compile your own, give back
 
 * Resources links
@@ -91,9 +91,10 @@ Recently there has been a lot of drama concerning OP_Return at Bitcoin Core (pr 
     - I'm unwilling to defend Core's actions because I don't agree with them and have no need to (i don't receive funding from chaincode labs or spiral)
       - heart of the issue was "fix or remove" datacarrier
       - Core dragged their feet -- did nothing, then removed datacarrier without acknowledging their initial inaction
+      - Core argues and communicates in bad faith
     - Unified mempools / Policy should equal consensus is the wrong approach
-    - I don't advocate for Knots, but I respect what Luke-jr is doing and have no problem recommending long-standing Bitcoin implementations
-    - Core should have left it alone - unclear why push for a change that lacks technical merit with poor arguments -- questionable motivations in funding
+    - I don't advocate for Knots, but I respect what Luke-jr is doing and encourage others to look into it
+    - Core should have left it alone - unclear what need is there to push for a change that lacks technical merit with poor arguments -- questionable motivations in funding
 
 
 ### Ross Ulbricht is Free!
