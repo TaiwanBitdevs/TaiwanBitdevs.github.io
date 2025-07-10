@@ -97,6 +97,21 @@ Recently there has been a lot of drama concerning OP_Return at Bitcoin Core (pr 
     - Core should have left it alone - unclear what need is there to push for a change that lacks technical merit with poor arguments -- questionable motivations in funding
 
 
+### Human Rights foundation Financial Freedom Report #79
+The Financial Freedom Report is a newsletter focusing on how currency plays a key role in the civil liberties and human rights struggles of those living under authoritarian regimes. We also spotlight new tools and applications that can help individuals protect their financial freedom.
+
+[link](https://hrf.org/latest/hrfs-weekly-financial-freedom-report-79/)
+
+### Open Letter for CTV-CSFS signed by 66 individuals
+James O’Beirne posted an open letter to the Bitcoin-Dev mailing signed by 66 individuals (as of this writing), many of them contributors to Bitcoin-related projects. The letter “asks Bitcoin Core contributors to prioritize the review and integration of OP_CHECKTEMPLATEVERIFY (CTV) and OP_CHECKSIGFROMSTACK (CSFS) within the next six months.” The thread contains over 60 replies. Some technical highlights include:
+
+[link](https://mailing-list.bitcoindevs.xyz/bitcoindev/a86c2737-db79-4f54-9c1d-51beeb765163n@googlegroups.com/)
+
+### 80,000 BTC on the move after 14 years of dormancy
+ During July 4th 2025, 80,000 BTC, equivalent to $8.6 billion at current exchange rates, were simultaneously moved from eight wallets that had been dormant for over 14 years. Each wallet contained exactly 10,000 BTC
+ 
+[link](https://www.cyphertux.net/articles/fr/research/bitcoin-80k-btc-mystere-opreturn)
+
 ### Ross Ulbricht is Free!
 
 Ross Ulbricht received a full pardon and was released from prison on January 21st, 2025.  Here are some links to discuss Ross Ulbricht and Silk Road to celebrate his release
