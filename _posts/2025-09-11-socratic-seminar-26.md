@@ -24,7 +24,25 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 
 ## Discussion Topics
 
-###TBD
+### YouTube-alternative video app Rumble implements Bitcoin tipping
+Rumble, a video-sharing platform with over 51 million monthly users, is partnering with Tether to roll out tipping in Bitcoin (and other crypto) by mid-December. The move aims to empower creators with additional monetisation tools beyond ads.  
+[link](https://beincrypto.com/rumble-challenges-youtube-with-bitcoin-tipping/)
+
+### Trezor quantum-ready hardware wallet
+Trezor has unveiled its new hardware wallet model (Safe 7) which features a “quantum-ready” architecture—designed to support future post-quantum firmware updates and includes an auditable secure element. However, the wallet does *not* provide immediate quantum-proof on-chain protection today.  
+[link](https://cryptoslate.com/what-trezors-new-quantum-ready-hardware-wallet-really-means-for-bitcoin/)
+
+### Bitcoin-only app Relai secures EU approval
+Relai, a Swiss “Bitcoin-only” investment app, has become one of the first such firms to receive a regulatory authorisation (a MiCA license via France’s regulator) enabling it to offer regulated services across the EU. This signals a milestone for regulated Bitcoin-only platforms in Europe.  
+[link](https://bravenewcoin.com/insights/bitcoin-app-relai-secures-historic-eu-approval-under-mica-framework)
+
+### Solo BTC miner secures \$347
+A solo miner solved block 920,440 entirely by themselves (outside major mining pools) and earned approximately \$347,455 (≈ 3.125 BTC + fees). This win highlights the potential for smaller miners to compete and underscores the decentralisation ethos of Bitcoin.  
+[link](https://cointelegraph.com/news/solo-bitcoin-miner-wins-block-self-soverignty)
+
+### AWS outage took down Coinbase
+An operational failure at Amazon Web Services (specifically in the US-EAST-1 region involving its DynamoDB/DNS infrastructure) caused widespread disruptions, including to Coinbase and various Ethereum layer-2 networks. The incident highlighted the crypto industry’s dependence on centralised infrastructure even while promoting decentralisation.  
+[link](https://cryptoslate.com/aws-failure-exposes-cryptos-centralized-weak-point/)
 
 ### Nostr, zaps and stuff (always)
 
