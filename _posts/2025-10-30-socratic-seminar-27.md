@@ -38,7 +38,7 @@ Blocks with a height from (TBD) until and including 987424 are checked with thes
 * Tapscripts executing the OP_IF or OP_NOTIF instruction (regardless of result) are invalid.
 
 ##### Some background
-(ML discussion - Limit ScriptPubkey Size 520 Bytes Consensus)[https://groups.google.com/g/bitcoindev/c/YO8ZwnG_ISs]
+[ML discussion - Limit ScriptPubkey Size >=520 Bytes Consensus](https://groups.google.com/g/bitcoindev/c/YO8ZwnG_ISs)
 
 Precedent of invalidating blocks from uninteded consequences of bitcoin reference implementation
 * Inflation Bug (Satoshi Era)
