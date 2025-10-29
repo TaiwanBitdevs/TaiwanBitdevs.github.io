@@ -42,7 +42,7 @@ Blocks with a height from (TBD) until and including 987424 are checked with thes
 
 Precedent of invalidating blocks from uninteded consequences of bitcoin reference implementation
 * Inflation Bug (Satoshi Era)
-* LevelDB/BerkeleyDB Bug (2017)
+* LevelDB/BerkeleyDB Bug (2013)
 
 ##### Common Misconceptions
 * Difference between hard fork and soft forks and what has happened in the past
