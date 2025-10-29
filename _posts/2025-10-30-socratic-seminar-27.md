@@ -37,13 +37,14 @@ Blocks with a height from (TBD) until and including 987424 are checked with thes
 * Tapscripts including OP_SUCCESS* opcodes anywhere (even unexecuted) are invalid.
 * Tapscripts executing the OP_IF or OP_NOTIF instruction (regardless of result) are invalid.
 
-#### Some background
-(ML discussion [BIP Proposal] Limit ScriptPubkey Size >= 520 Bytes Consensus)[https://gnusha.org/pi/bitcoindev/aN_u-xB2ogn2D834@erisian.com.au/T/#m65045bb18faeca6246f01827eecc8c3afdbe1e31]
+##### Some background
+(ML discussion - Limit ScriptPubkey Size >= 520 Bytes Consensus)[https://gnusha.org/pi/bitcoindev/aN_u-xB2ogn2D834@erisian.com.au/T/#m65045bb18faeca6246f01827eecc8c3afdbe1e31]
+
 Precedent of invalidating blocks from uninteded consequences of bitcoin reference implementation
 * Inflation Bug (Satoshi Era)
 * BerkeleyDB Bug (2017)
 
-#### Common Misconceptions
+##### Common Misconceptions
 * Difference between hard fork and softforks
 * Bip444 is not an "airdrop"
 
