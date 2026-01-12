@@ -1,13 +1,13 @@
 ---
 layout: post
 type: socratic
-title: "Socratic Seminar 27: All the time in the world is all they've got"
-meetup: https://www.meetup.com/taiwan-bitdevs/events/311594358/
+title: "Socratic Seminar 28: All the time in the world is all they've got"
+meetup: https://www.meetup.com/taiwan-bitdevs/events/312842288
 ---
 
 ## Announcements
 
-Our 27th Socratic Seminar event will be held at TempoHouse
+Our 28th Socratic Seminar event will be held at TempoHouse
 
 Tempohouse generously offered their space to host BitDevs
 
