@@ -27,21 +27,22 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 ### wallet migration bug causes Core v30 and v30.1 to be removed 1/6/2026
 * the issue: wallet/ directory can be deleted during the migration process in core V30
          doesn't effect modern wallets >v.20
-         not that "rare" -- normal use can result in this bug (pruned nodes or corrupted db log data
-* wallet migration -> convert wallet.dat files to descriptor wallets
+         not that "rare" -- normal use can result in this bug (pruned nodes or corrupted db log data)
+* wallet migration -> convert wallet.dat BDB key-values to Sqlite descriptor wallets
 * why this bug popped up now?
         - migration wasn't mandatory before v30
+        - proposed fixes to failed migrations broke tests
         - legacy wallets use the root wallet/ directory
         - legacy wallets are unnamed by default called \[default wallet\]
 * what are legacy wallets?
         - wallet.dat private keys vs descriptors
         - BerkeleyDB vs Sqlite
-        - Past issues with BerkeleyDB -- Bitcoin uses a specific version (4.8.30) of BerkeleyDB  chosen by Satoshi to fit Bitcoin's MIT license
+        - Past issues with BerkeleyDB -- Bitcoin uses a specific version (4.8.30) of BerkeleyDB  chosen by Satoshi to fit Bitcoin's MIT license(?)
             -block 225430 (2013)
             -inflation bug (CVE-2018-17144 2018)
 * the fix so far (v30.2, v31)
         - remove wallets, not the folder
-        - long term: get rid of wallet in Core entirely
+        - long term: remove wallet functionality in Core entirely
 
 [Core Announcement](https://x.com/bitcoincoreorg/status/2008284092983369886)
 
@@ -53,7 +54,7 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 
 [Observed Bugs](https://x.com/LukeDashjr/status/2010554049016312208)
 
-[It's not a big deal](https://x.com/adam3us/status/2008694645803368755)
+["It's not a big deal"](https://x.com/adam3us/status/2008694645803368755)
 
 [Post-mortem analysis](https://x.com/secsovereign/status/2010818678523408390)
 
@@ -101,6 +102,13 @@ Joinstr was launched as a proof of concept in August 2022. It uses nostr relays 
 [website](https://docs.joinstr.xyz/)
 
 [announcement](https://x.com/joinstrxyz/status/2013170855866470569)
+
+
+### New BIP Process BIP-3
+
+BIP 2 was written in 2016. This BIP revisits aspects of the BIP 2 process that did not achieve broad adoption, reduces the judgment calls assigned to the BIP Editor role, delineates the BIP types more clearly, and generalizes the BIP process to fit the community’s use of the repository.
+
+[link](https://github.com/bitcoin/bips/blob/master/bip-0003.md)
 
 ### YouTube-alternative video app Rumble implements Bitcoin tipping
 Rumble, a video-sharing platform with over 51 million monthly users, is partnering with Tether to roll out tipping in Bitcoin (and other crypto) by mid-December. The move aims to empower creators with additional monetisation tools beyond ads.  
