@@ -24,6 +24,39 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 
 ## Discussion Topics
 
+### wallet migration bug causes Core v30 and v30.1 to be removed 1/6/2026
+* the issue: wallet/ directory can be deleted during the migration process in core V30
+        - it's not that "rare" -- normal use can result in this bug (pruned nodes or corrupted db log data)
+* wallet migration -> convert wallet.dat files to descriptor wallets
+* why this bug popped up now?
+        - migration wasn't mandatory before v30
+        - legacy wallets use the root wallet/ directory
+        - legacy wallets are unnamed by default called \[default wallet\]
+* what are legacy wallets?
+        - wallet.dat private keys vs descriptors
+        - BerkeleyDB vs Sqlite
+        - Past issues with BerkeleyDB -- Bitcoin uses a specific version (4.8.30) of BerkeleyDB  chosen by Satoshi to fit Bitcoin's MIT license
+            -block 225430 (2013)
+            -inflation bug (CVE-2018-17144 2018)
+* the fix so far (v30.2, v31)
+        - remove wallets, not the folder
+        - long term: get rid of wallet in Core entirely
+
+[Core Announcement](https://x.com/bitcoincoreorg/status/2008284092983369886)
+[Core FAQ](https://gist.github.com/bitschmidty/5144c098c522c0144adfc24d9e1bb9ec)
+[Complaints about BDB example](https://bitcointalk.org/index.php?topic=502482.20)
+[v30 Pull Request #34128](https://github.com/bitcoin/bitcoin/issues/34128)
+[Observed Bugs](https://x.com/LukeDashjr/status/2010554049016312208)
+[Post-mortem analysis](https://x.com/secsovereign/status/2010818678523408390)
+
+
+### BIP 110/444/RDTS Release Candidate 2
+* Common misconceptions on soft forks
+* Dangers ignoring softfork rules without URSF
+
+
+[BIP110/444 Implementation RC2](https://github.com/dathonohm/bitcoin/releases/tag/v29.2.knots20251110%2Bbip110-v0.1rc2)
+
 ### BIP444 Softfork Proposal
 user dathonohm submitted a BIP (currently unassigned but 444 is how it is referred to at the moment) Reduced Data Temporary Softfork in response to growing adoption of Bitcoin Core v30.0.0 which relays and validates large OP_Returns that may have uninteded consequences
 
@@ -52,6 +85,14 @@ Precedent of invalidating blocks from uninteded consequences of bitcoin referenc
 [link](https://github.com/bitcoin/bips/pull/2017)
 
 [mailing list discussion](https://groups.google.com/g/bitcoindev/c/nOZim6FbuF8)
+
+### Joinstr in the wild
+coinjoin implementation using nostr
+
+Joinstr was launched as a proof of concept in August 2022. It uses nostr relays for coordination and has implementations in multiple languages.
+
+[website](https://docs.joinstr.xyz/)
+[announcement](https://x.com/joinstrxyz/status/2013170855866470569)
 
 ### YouTube-alternative video app Rumble implements Bitcoin tipping
 Rumble, a video-sharing platform with over 51 million monthly users, is partnering with Tether to roll out tipping in Bitcoin (and other crypto) by mid-December. The move aims to empower creators with additional monetisation tools beyond ads.  
