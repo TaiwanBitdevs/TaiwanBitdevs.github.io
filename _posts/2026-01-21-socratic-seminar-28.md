@@ -26,7 +26,8 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 
 ### wallet migration bug causes Core v30 and v30.1 to be removed 1/6/2026
 * the issue: wallet/ directory can be deleted during the migration process in core V30
-        - it's not that "rare" -- normal use can result in this bug (pruned nodes or corrupted db log data)
+         doesn't effect modern wallets >v.20
+         not that "rare" -- normal use can result in this bug (pruned nodes or corrupted db log data
 * wallet migration -> convert wallet.dat files to descriptor wallets
 * why this bug popped up now?
         - migration wasn't mandatory before v30
@@ -43,17 +44,23 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
         - long term: get rid of wallet in Core entirely
 
 [Core Announcement](https://x.com/bitcoincoreorg/status/2008284092983369886)
+
 [Core FAQ](https://gist.github.com/bitschmidty/5144c098c522c0144adfc24d9e1bb9ec)
+
 [Complaints about BDB example](https://bitcointalk.org/index.php?topic=502482.20)
+
 [v30 Pull Request #34128](https://github.com/bitcoin/bitcoin/issues/34128)
+
 [Observed Bugs](https://x.com/LukeDashjr/status/2010554049016312208)
+
+[It's not a big deal](https://x.com/adam3us/status/2008694645803368755)
+
 [Post-mortem analysis](https://x.com/secsovereign/status/2010818678523408390)
 
 
 ### BIP 110/444/RDTS Release Candidate 2
 * Common misconceptions on soft forks
 * Dangers ignoring softfork rules without URSF
-
 
 [BIP110/444 Implementation RC2](https://github.com/dathonohm/bitcoin/releases/tag/v29.2.knots20251110%2Bbip110-v0.1rc2)
 
@@ -92,26 +99,32 @@ coinjoin implementation using nostr
 Joinstr was launched as a proof of concept in August 2022. It uses nostr relays for coordination and has implementations in multiple languages.
 
 [website](https://docs.joinstr.xyz/)
+
 [announcement](https://x.com/joinstrxyz/status/2013170855866470569)
 
 ### YouTube-alternative video app Rumble implements Bitcoin tipping
 Rumble, a video-sharing platform with over 51 million monthly users, is partnering with Tether to roll out tipping in Bitcoin (and other crypto) by mid-December. The move aims to empower creators with additional monetisation tools beyond ads.  
+
 [link](https://beincrypto.com/rumble-challenges-youtube-with-bitcoin-tipping/)
 
 ### Trezor quantum-ready hardware wallet
 Trezor has unveiled its new hardware wallet model (Safe 7) which features a “quantum-ready” architecture—designed to support future post-quantum firmware updates and includes an auditable secure element. However, the wallet does *not* provide immediate quantum-proof on-chain protection today.  
+
 [link](https://cryptoslate.com/what-trezors-new-quantum-ready-hardware-wallet-really-means-for-bitcoin/)
 
 ### Bitcoin-only app Relai secures EU approval
 Relai, a Swiss “Bitcoin-only” investment app, has become one of the first such firms to receive a regulatory authorisation (a MiCA license via France’s regulator) enabling it to offer regulated services across the EU. This signals a milestone for regulated Bitcoin-only platforms in Europe.  
+
 [link](https://bravenewcoin.com/insights/bitcoin-app-relai-secures-historic-eu-approval-under-mica-framework)
 
 ### Solo BTC miner secures \$347
 A solo miner solved block 920,440 entirely by themselves (outside major mining pools) and earned approximately \$347,455 (≈ 3.125 BTC + fees). This win highlights the potential for smaller miners to compete and underscores the decentralisation ethos of Bitcoin.  
+
 [link](https://cointelegraph.com/news/solo-bitcoin-miner-wins-block-self-soverignty)
 
 ### AWS outage took down Coinbase
 An operational failure at Amazon Web Services (specifically in the US-EAST-1 region involving its DynamoDB/DNS infrastructure) caused widespread disruptions, including to Coinbase and various Ethereum layer-2 networks. The incident highlighted the crypto industry’s dependence on centralised infrastructure even while promoting decentralisation.  
+
 [link](https://cryptoslate.com/aws-failure-exposes-cryptos-centralized-weak-point/)
 
 ### Nostr, zaps and stuff (always)
