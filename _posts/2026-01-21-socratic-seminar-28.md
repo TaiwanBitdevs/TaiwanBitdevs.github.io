@@ -25,24 +25,28 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 ## Discussion Topics
 
 ### wallet migration bug causes Core v30 and v30.1 to be removed 1/6/2026
-- the issue: wallet/ directory can be deleted during the migration process in core V30
+* the issue: wallet/ directory can be deleted during the migration process in core V30
       1. doesn't effect modern wallets >v.20
       2. not that "rare", normal use can result in this bug (pruned nodes or corrupted db log data)
-- wallet migration -> convert wallet.dat BDB key-values to Sqlite descriptor wallets
-- why this bug popped up now?
+  
+* wallet migration -> convert wallet.dat BDB key-values to Sqlite descriptor wallets
+
+* why this bug popped up now?
         1. migration wasn't mandatory before v30
         2. proposed fixes to failed migrations broke tests
         3. legacy wallets use the root wallet/ directory
         4. legacy wallets are unnamed by default called \[default wallet\]
-- what are legacy wallets?
-      1. wallet.dat private keys vs descriptors
-      2. BerkeleyDB vs Sqlite
-      3. Past issues with BerkeleyDB -- Bitcoin uses a specific version (4.8.30) of BerkeleyDB  chosen by Satoshi to fit Bitcoin's MIT license(?)
-              1. block 225430 (2013)
-              2. inflation bug (CVE-2018-17144 2018)
-- the fix so far (v30.2, v31)
-        1. remove wallets, not the folder
-        2. long term: remove wallet functionality in Core entirely
+
+* what are legacy wallets?
+  1. wallet.dat private keys vs descriptors
+  2. BerkeleyDB vs Sqlite
+  3. Past issues with BerkeleyDB -- Bitcoin uses a specific version (4.8.30) of BerkeleyDB  chosen by Satoshi to fit Bitcoin's MIT license(?)
+      1. block 225430 (2013)
+      2. inflation bug (CVE-2018-17144 2018)
+
+* the fix so far (v30.2, v31)
+       1. remove wallets, not the folder
+       2. long term: remove wallet functionality in Core
 
 [Core Announcement](https://x.com/bitcoincoreorg/status/2008284092983369886)
 
