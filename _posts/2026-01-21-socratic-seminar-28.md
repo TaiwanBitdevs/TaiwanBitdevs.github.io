@@ -26,23 +26,23 @@ Learn about bitcoin development. Share, debate, and discuss trade offs in progre
 
 ### wallet migration bug causes Core v30 and v30.1 to be removed 1/6/2026
 - the issue: wallet/ directory can be deleted during the migration process in core V30
-      - doesn't effect modern wallets >v.20
-      - not that "rare", normal use can result in this bug (pruned nodes or corrupted db log data)
+      1. doesn't effect modern wallets >v.20
+      2. not that "rare", normal use can result in this bug (pruned nodes or corrupted db log data)
 - wallet migration -> convert wallet.dat BDB key-values to Sqlite descriptor wallets
 - why this bug popped up now?
-        - migration wasn't mandatory before v30
-        - proposed fixes to failed migrations broke tests
-        - legacy wallets use the root wallet/ directory
-        - legacy wallets are unnamed by default called \[default wallet\]
+        1. migration wasn't mandatory before v30
+        2. proposed fixes to failed migrations broke tests
+        3. legacy wallets use the root wallet/ directory
+        4. legacy wallets are unnamed by default called \[default wallet\]
 - what are legacy wallets?
-      - wallet.dat private keys vs descriptors
-      - BerkeleyDB vs Sqlite
-      - Past issues with BerkeleyDB -- Bitcoin uses a specific version (4.8.30) of BerkeleyDB  chosen by Satoshi to fit Bitcoin's MIT license(?)
-              - block 225430 (2013)
-              - inflation bug (CVE-2018-17144 2018)
+      1. wallet.dat private keys vs descriptors
+      2. BerkeleyDB vs Sqlite
+      3. Past issues with BerkeleyDB -- Bitcoin uses a specific version (4.8.30) of BerkeleyDB  chosen by Satoshi to fit Bitcoin's MIT license(?)
+              1. block 225430 (2013)
+              2. inflation bug (CVE-2018-17144 2018)
 - the fix so far (v30.2, v31)
-        - remove wallets, not the folder
-        - long term: remove wallet functionality in Core entirely
+        1. remove wallets, not the folder
+        2. long term: remove wallet functionality in Core entirely
 
 [Core Announcement](https://x.com/bitcoincoreorg/status/2008284092983369886)
 
@@ -109,6 +109,17 @@ Joinstr was launched as a proof of concept in August 2022. It uses nostr relays 
 BIP 2 was written in 2016. This BIP revisits aspects of the BIP 2 process that did not achieve broad adoption, reduces the judgment calls assigned to the BIP Editor role, delineates the BIP types more clearly, and generalizes the BIP process to fit the community’s use of the repository.
 
 [link](https://github.com/bitcoin/bips/blob/master/bip-0003.md)
+
+
+### Venezuela could be sitting on a big Bitcoin stash
+
+Following the United States’ capture of Nicolás Maduro, a report came out claiming that Venezuela had $60 billion stored in Bitcoin—leading to speculation that the U.S. could lay claim to cryptocurrency as well as oil. Despite numerous reports of the huge Venezuelan Bitcoin stash, however, a crypto forensic firm is skeptical of the claims.
+
+Venezuela Bitcoin Mining industry had been a victim of the regime which could explain the rumor
+
+[link](https://www.cnbc.com/2026/01/06/venezuela-could-be-sitting-on-a-big-bitcoin-stash-experts-say-heres-what-could-happen-next-.html)
+
+[A Venezuelan Escape Story with Mauricio and Daniel Di Bartolomeo](https://www.youtube.com/watch?v=IGMsg9b1vhc)
 
 ### YouTube-alternative video app Rumble implements Bitcoin tipping
 Rumble, a video-sharing platform with over 51 million monthly users, is partnering with Tether to roll out tipping in Bitcoin (and other crypto) by mid-December. The move aims to empower creators with additional monetisation tools beyond ads.  
