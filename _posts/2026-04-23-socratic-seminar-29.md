@@ -2,14 +2,13 @@
 layout: post
 type: socratic
 title: "Socratic Seminar 29: Where money's put down, it's only one sound that make,"
-meetup: https://www.meetup.com/taiwan-bitdevs/events/314416424
+meetup: 
 ---
 
 ## Announcements
 
-Our 29th Socratic Seminar event will be held at TempoHouse
+Our 29th Socratic Seminar has been canceled
 
-Tempohouse generously offered their space to host BitDevs
 
 This time would like to take the opportunity to go over something more Taiwan-centric alongside the usual socratic
 
